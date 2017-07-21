@@ -1,0 +1,34 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "to-zip": "35630",
+          "delivery-date": null
+        },
+        "relationships": {
+          "inventory-item": {
+            "data": {
+              "id": "@id",
+              "type": "inventory-items"
+            }
+          }
+        },
+        "type": "delivery-estimates"
+      }
+    }
+  },
+  "response": {
+    "status": "202",
+    "body": {
+      "data": {
+        "id": "@id",
+        "attributes": {
+          "delivery-date": "2017-06-23",
+          "to-zip": "35630"
+        },
+        "type": "delivery-estimates"
+      }
+    }
+  }
+}
