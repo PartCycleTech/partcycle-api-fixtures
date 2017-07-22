@@ -71,6 +71,15 @@ To specify a flex param, just use the `@` symbol with the param name as the valu
 Currently supported flex params:
 - `id` | any non-empty string
 
+### File path conventions
+
+It is recommended that the directories correspond to url parameters, and that the file name end with the type of request (e.g. `get`,`post` etc.). If there are multiple fixtures with the same url and request type, they can be differentiated with the first part of the file name. The file names should always have the `.json` extension.
+
+Some examples:
+- POST `explosion/floral/drifter` => `explosion/floral/drifter/post.json`
+- GET `explosion/floral/drifter` => `explosion/floral/drifter/maximum-get.json`
+- GET `explosion/floral/drifter` => `explosion/floral/drifter/pilot-get.json`
+
 ## Usage
 
 Using these fixtures will require both inserting these fixtures into an existing codebase, and then using a library to integrate them with an existing framework. The recommended way to add these fixtures to a repository is to use [git submodules](https://git-scm.com/docs/git-submodule).
