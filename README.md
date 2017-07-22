@@ -69,7 +69,7 @@ There are some values which are best not hard-coded into the fixtures. Resource 
 To specify a flex param, just use the `@` symbol with the param name as the value in the fixture.
 
 Currently supported flex params:
-- `id`
+- `id` | any non-empty string
 
 ## Usage
 
