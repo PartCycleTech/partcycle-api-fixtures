@@ -1,10 +1,20 @@
 # partcycle-api-fixtures
+Fixtures to be used in both client and server testing, to keep them in sync.
+
+![graphic](https://image.ibb.co/dPKWkQ/api_validator_1.png "graphic")
 
 ## Summary
 
 PartCycle API Fixtures provides example request/response pairs against which both the frontend and the backend can validate their own behavior. The idea is that by testing both the frontend and the backend against the same data, we minimize the probability of miscommunication between the two apps in production.
 
-After all, our frontend tests and our backend tests mean little if the two apps are testing against different requirements. The goal of these fixtures is to keep the requirements in sync.
+## Usage
+
+Using these fixtures will require both inserting these fixtures into an existing codebase, and then using a library to integrate them with an existing framework.
+
+- The fixtures can be added to a git repository using [submodules](https://git-scm.com/docs/git-submodule).
+- Integration libraries:
+  - [Rails](https://github.com/PartCycleTech/rails-api-validator)
+  - [Ember](https://github.com/PartCycleTech/ember-api-validator)
 
 ## Specifics
 
@@ -79,7 +89,3 @@ Some examples:
 - POST `explosion/floral/drifter` => `explosion/floral/drifter/post.json`
 - GET `explosion/floral/drifter` => `explosion/floral/drifter/maximum-get.json`
 - GET `explosion/floral/drifter` => `explosion/floral/drifter/pilot-get.json`
-
-## Usage
-
-Using these fixtures will require both inserting these fixtures into an existing codebase, and then using a library to integrate them with an existing framework. The recommended way to add these fixtures to a repository is to use [git submodules](https://git-scm.com/docs/git-submodule).
