@@ -1,0 +1,660 @@
+{
+  "request": {
+    "body": null
+  },
+  "response": {
+    "status": "200",
+    "body": {
+      "data": {
+        "id": "123",
+        "type": "orders",
+        "links": {
+          "self": "http://www.example.com/api/orders/123"
+        },
+        "attributes": {
+          "confirmation-number": "1502342187707",
+          "created-at": "2017-08-10T08:48:59.657Z",
+          "updated-at": "2017-08-10T08:48:59.687Z",
+          "status-updated-at": "2017-08-10T06:53:03.347Z",
+          "status": "awaiting_shipment",
+          "is-open": true,
+          "total-in-cents": 10000,
+          "platform-fee-in-cents": 1200,
+          "has-open-returns": false
+        },
+        "relationships": {
+          "credit-card": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/credit-card",
+              "related": "http://www.example.com/api/orders/123/credit-card"
+            },
+            "data": {
+              "type": "credit-cards",
+              "id": "9"
+            }
+          },
+          "inventory-items": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/inventory-items",
+              "related": "http://www.example.com/api/orders/123/inventory-items"
+            },
+            "data": [
+              {
+                "type": "inventory-items",
+                "id": "100"
+              },
+              {
+                "type": "inventory-items",
+                "id": "101"
+              }
+            ]
+          },
+          "order-items": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/order-items",
+              "related": "http://www.example.com/api/orders/123/order-items"
+            },
+            "data": [
+              {
+                "type": "order-items",
+                "id": "49"
+              },
+              {
+                "type": "order-items",
+                "id": "50"
+              }
+            ]
+          },
+          "billing-address": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/billing-address",
+              "related": "http://www.example.com/api/orders/123/billing-address"
+            },
+            "data": {
+              "type": "addresses",
+              "id": "12"
+            }
+          },
+          "shipping-address": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/shipping-address",
+              "related": "http://www.example.com/api/orders/123/shipping-address"
+            },
+            "data": {
+              "type": "addresses",
+              "id": "12"
+            }
+          },
+          "user": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/user",
+              "related": "http://www.example.com/api/orders/123/user"
+            },
+            "data": {
+              "type": "users",
+              "id": "15"
+            }
+          },
+          "shipments": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/shipments",
+              "related": "http://www.example.com/api/orders/123/shipments"
+            },
+            "data": []
+          },
+          "location": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/location",
+              "related": "http://www.example.com/api/orders/123/location"
+            },
+            "data": {
+              "type": "locations",
+              "id": "1"
+            }
+          },
+          "returns": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/returns",
+              "related": "http://www.example.com/api/orders/123/returns"
+            }
+          },
+          "order-cancellation": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/order-cancellation",
+              "related": "http://www.example.com/api/orders/123/order-cancellation"
+            },
+            "data": null
+          },
+          "order-notes": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/order-notes",
+              "related": "http://www.example.com/api/orders/123/order-notes"
+            }
+          },
+          "order-events": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/order-events",
+              "related": "http://www.example.com/api/orders/123/order-events"
+            }
+          },
+          "conversations": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/conversations",
+              "related": "http://www.example.com/api/orders/123/conversations"
+            },
+            "data": []
+          },
+          "supplier-order-record": {
+            "links": {
+              "self": "http://www.example.com/api/orders/123/relationships/supplier-order-record",
+              "related": "http://www.example.com/api/orders/123/supplier-order-record"
+            },
+            "data": {
+              "type": "supplier-order-records",
+              "id": "9"
+            }
+          }
+        }
+      },
+      "included": [
+        {
+          "id": "9",
+          "type": "credit-cards",
+          "links": {
+            "self": "http://www.example.com/api/credit-cards/9"
+          },
+          "attributes": {
+            "last-four-digits": "4242",
+            "name": "John Doe",
+            "expiration-year": "2020",
+            "expiration-month": "01",
+            "company": "Visa"
+          }
+        },
+        {
+          "id": "2181",
+          "type": "part-kinds",
+          "links": {
+            "self": "http://www.example.com/api/part-kinds/2181"
+          },
+          "attributes": {
+            "name": "Engine Assembly 144",
+            "hollander-part-type": "244",
+            "alternate-names": [
+              "Engine 144",
+              "Entire Engine 144",
+              "Whole Engine 144"
+            ],
+            "whats-included": null,
+            "whats-not-included": null,
+            "ara-definition": null,
+            "is-available-for-sale": true,
+            "youtube-id": null
+          }
+        },
+        {
+          "id": "2185",
+          "type": "part-kinds",
+          "links": {
+            "self": "http://www.example.com/api/part-kinds/2185"
+          },
+          "attributes": {
+            "name": "Engine Assembly 148",
+            "hollander-part-type": "248",
+            "alternate-names": [
+              "Engine 148",
+              "Entire Engine 148",
+              "Whole Engine 148"
+            ],
+            "whats-included": null,
+            "whats-not-included": null,
+            "ara-definition": null,
+            "is-available-for-sale": true,
+            "youtube-id": null
+          }
+        },
+        {
+          "id": "2181",
+          "type": "parts",
+          "links": {
+            "self": "http://www.example.com/api/parts/2181"
+          },
+          "attributes": {
+            "hollander-interchange": "100-00144AL",
+            "interchange-number": "00144AL",
+            "name": "Engine Assembly 144"
+          },
+          "relationships": {
+            "diagrams": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2181/relationships/diagrams",
+                "related": "http://www.example.com/api/parts/2181/diagrams"
+              }
+            },
+            "inventory-items": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2181/relationships/inventory-items",
+                "related": "http://www.example.com/api/parts/2181/inventory-items"
+              }
+            },
+            "vehicles": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2181/relationships/vehicles",
+                "related": "http://www.example.com/api/parts/2181/vehicles"
+              }
+            },
+            "part-kind": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2181/relationships/part-kind",
+                "related": "http://www.example.com/api/parts/2181/part-kind"
+              },
+              "data": {
+                "type": "part-kinds",
+                "id": "2181"
+              }
+            },
+            "part-images": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2181/relationships/part-images",
+                "related": "http://www.example.com/api/parts/2181/part-images"
+              }
+            }
+          }
+        },
+        {
+          "id": "2185",
+          "type": "parts",
+          "links": {
+            "self": "http://www.example.com/api/parts/2185"
+          },
+          "attributes": {
+            "hollander-interchange": "100-00148AL",
+            "interchange-number": "00148AL",
+            "name": "Engine Assembly 148"
+          },
+          "relationships": {
+            "diagrams": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2185/relationships/diagrams",
+                "related": "http://www.example.com/api/parts/2185/diagrams"
+              }
+            },
+            "inventory-items": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2185/relationships/inventory-items",
+                "related": "http://www.example.com/api/parts/2185/inventory-items"
+              }
+            },
+            "vehicles": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2185/relationships/vehicles",
+                "related": "http://www.example.com/api/parts/2185/vehicles"
+              }
+            },
+            "part-kind": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2185/relationships/part-kind",
+                "related": "http://www.example.com/api/parts/2185/part-kind"
+              },
+              "data": {
+                "type": "part-kinds",
+                "id": "2185"
+              }
+            },
+            "part-images": {
+              "links": {
+                "self": "http://www.example.com/api/parts/2185/relationships/part-images",
+                "related": "http://www.example.com/api/parts/2185/part-images"
+              }
+            }
+          }
+        },
+        {
+          "id": "100",
+          "type": "inventory-items",
+          "links": {
+            "self": "http://www.example.com/api/inventory-items/100"
+          },
+          "attributes": {
+            "company-name": "Bob Dylan's Highway 61 Auto",
+            "price-in-cents": 10000,
+            "grade": "A",
+            "company-rating": null,
+            "is-available-for-purchase": null,
+            "is-commercial-shipping": false,
+            "is-listed": true,
+            "description": "INCLUDES MOUNTING HARDWARE",
+            "stock-number": "ABC123",
+            "stock-location": "R1",
+            "stock-date-added": "2017-08-10",
+            "is-available-for-search": null,
+            "intelligent-description": "",
+            "purchase-price-in-cents": 12300,
+            "intelligent-quality": "like_new",
+            "yms-unique-id": "7492859"
+          },
+          "relationships": {
+            "donor-car": {
+              "links": {
+                "self": "http://www.example.com/api/inventory-items/100/relationships/donor-car",
+                "related": "http://www.example.com/api/inventory-items/100/donor-car"
+              }
+            },
+            "part": {
+              "links": {
+                "self": "http://www.example.com/api/inventory-items/100/relationships/part",
+                "related": "http://www.example.com/api/inventory-items/100/part"
+              },
+              "data": {
+                "type": "parts",
+                "id": "2181"
+              }
+            },
+            "location": {
+              "links": {
+                "self": "http://www.example.com/api/inventory-items/100/relationships/location",
+                "related": "http://www.example.com/api/inventory-items/100/location"
+              }
+            },
+            "inventory-item-images": {
+              "links": {
+                "self": "http://www.example.com/api/inventory-items/100/relationships/inventory-item-images",
+                "related": "http://www.example.com/api/inventory-items/100/inventory-item-images"
+              }
+            }
+          }
+        },
+        {
+          "id": "101",
+          "type": "inventory-items",
+          "links": {
+            "self": "http://www.example.com/api/inventory-items/101"
+          },
+          "attributes": {
+            "company-name": "Bob Dylan's Highway 61 Auto",
+            "price-in-cents": 10000,
+            "grade": "A",
+            "company-rating": null,
+            "is-available-for-purchase": null,
+            "is-commercial-shipping": false,
+            "is-listed": true,
+            "description": "INCLUDES MOUNTING HARDWARE",
+            "stock-number": "ABC123",
+            "stock-location": "R1",
+            "stock-date-added": "2017-08-10",
+            "is-available-for-search": null,
+            "intelligent-description": "",
+            "purchase-price-in-cents": 12300,
+            "intelligent-quality": "like_new",
+            "yms-unique-id": "7492860"
+          },
+          "relationships": {
+            "donor-car": {
+              "links": {
+                "self": "http://www.example.com/api/inventory-items/101/relationships/donor-car",
+                "related": "http://www.example.com/api/inventory-items/101/donor-car"
+              }
+            },
+            "part": {
+              "links": {
+                "self": "http://www.example.com/api/inventory-items/101/relationships/part",
+                "related": "http://www.example.com/api/inventory-items/101/part"
+              },
+              "data": {
+                "type": "parts",
+                "id": "2185"
+              }
+            },
+            "location": {
+              "links": {
+                "self": "http://www.example.com/api/inventory-items/101/relationships/location",
+                "related": "http://www.example.com/api/inventory-items/101/location"
+              }
+            },
+            "inventory-item-images": {
+              "links": {
+                "self": "http://www.example.com/api/inventory-items/101/relationships/inventory-item-images",
+                "related": "http://www.example.com/api/inventory-items/101/inventory-item-images"
+              }
+            }
+          }
+        },
+        {
+          "id": "49",
+          "type": "order-items",
+          "links": {
+            "self": "http://www.example.com/api/order-items/49"
+          },
+          "attributes": {
+            "shipping-carrier": null,
+            "shipping-service-level": null,
+            "shipping-price-in-cents": 2000,
+            "additional-shipping-price-in-cents": 500,
+            "included-shipping-price-in-cents": 1500,
+            "purchase-price-in-cents": 11500,
+            "can-be-returned": false,
+            "has-shipped": false,
+            "tax-in-cents": 0,
+            "search-vehicle-year": 2010,
+            "search-vehicle-make": "Ford",
+            "search-vehicle-model": "F-150",
+            "search-vehicle-application": "4.8L, VIN 123",
+            "total-price-in-cents": 12000
+          },
+          "relationships": {
+            "order": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/49/relationships/order",
+                "related": "http://www.example.com/api/order-items/49/order"
+              }
+            },
+            "inventory-item": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/49/relationships/inventory-item",
+                "related": "http://www.example.com/api/order-items/49/inventory-item"
+              },
+              "data": {
+                "type": "inventory-items",
+                "id": "100"
+              }
+            },
+            "return": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/49/relationships/return",
+                "related": "http://www.example.com/api/order-items/49/return"
+              },
+              "data": null
+            },
+            "shipment": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/49/relationships/shipment",
+                "related": "http://www.example.com/api/order-items/49/shipment"
+              }
+            },
+            "proof-of-condition-images": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/49/relationships/proof-of-condition-images",
+                "related": "http://www.example.com/api/order-items/49/proof-of-condition-images"
+              },
+              "data": []
+            }
+          }
+        },
+        {
+          "id": "50",
+          "type": "order-items",
+          "links": {
+            "self": "http://www.example.com/api/order-items/50"
+          },
+          "attributes": {
+            "shipping-carrier": null,
+            "shipping-service-level": null,
+            "shipping-price-in-cents": 2000,
+            "additional-shipping-price-in-cents": 500,
+            "included-shipping-price-in-cents": 1500,
+            "purchase-price-in-cents": 11500,
+            "can-be-returned": false,
+            "has-shipped": false,
+            "tax-in-cents": 0,
+            "search-vehicle-year": 2010,
+            "search-vehicle-make": "Ford",
+            "search-vehicle-model": "F-150",
+            "search-vehicle-application": "4.8L, VIN 123",
+            "total-price-in-cents": 12000
+          },
+          "relationships": {
+            "order": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/50/relationships/order",
+                "related": "http://www.example.com/api/order-items/50/order"
+              }
+            },
+            "inventory-item": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/50/relationships/inventory-item",
+                "related": "http://www.example.com/api/order-items/50/inventory-item"
+              },
+              "data": {
+                "type": "inventory-items",
+                "id": "101"
+              }
+            },
+            "return": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/50/relationships/return",
+                "related": "http://www.example.com/api/order-items/50/return"
+              },
+              "data": null
+            },
+            "shipment": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/50/relationships/shipment",
+                "related": "http://www.example.com/api/order-items/50/shipment"
+              }
+            },
+            "proof-of-condition-images": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/50/relationships/proof-of-condition-images",
+                "related": "http://www.example.com/api/order-items/50/proof-of-condition-images"
+              },
+              "data": []
+            }
+          }
+        },
+        {
+          "id": "12",
+          "type": "addresses",
+          "links": {
+            "self": "http://www.example.com/api/addresses/12"
+          },
+          "attributes": {
+            "name": "Andromeda Tonks",
+            "street": "200 Arizona co. road",
+            "suite": "",
+            "city": "Atlanta",
+            "state": "ga",
+            "zipcode": "30307-1234",
+            "phone-number": "1234567890",
+            "is-residential": null
+          }
+        },
+        {
+          "id": "15",
+          "type": "users",
+          "links": {
+            "self": "http://www.example.com/api/users/15"
+          },
+          "attributes": {
+            "name": "John Doe",
+            "email": "john-855@partcycle.com",
+            "current-password": null,
+            "is-supplier": false,
+            "has-supplier-registration": false,
+            "kind": "i_work_on_my_own_vehicles",
+            "is-premier-buyer": false,
+            "nickname": "Johnny"
+          },
+          "relationships": {
+            "default-billing-address": {
+              "links": {
+                "self": "http://www.example.com/api/users/15/relationships/default-billing-address",
+                "related": "http://www.example.com/api/users/15/default-billing-address"
+              }
+            },
+            "default-credit-card": {
+              "links": {
+                "self": "http://www.example.com/api/users/15/relationships/default-credit-card",
+                "related": "http://www.example.com/api/users/15/default-credit-card"
+              }
+            },
+            "default-shipping-address": {
+              "links": {
+                "self": "http://www.example.com/api/users/15/relationships/default-shipping-address",
+                "related": "http://www.example.com/api/users/15/default-shipping-address"
+              }
+            }
+          }
+        },
+        {
+          "id": "1",
+          "type": "locations",
+          "links": {
+            "self": "http://www.example.com/api/locations/1"
+          },
+          "attributes": {
+            "street": "7920 Glenlake Avenue",
+            "suite": "",
+            "city": "Ankeny",
+            "state": "IA",
+            "zipcode": "50023",
+            "phone-number": "1234567890",
+            "nickname": "My main store",
+            "contact-name": "Bob Dylan",
+            "contact-phone-number": "1234567890",
+            "contact-email": "Bob@Dylan.biz",
+            "last-inventory-import-at": null,
+            "avalara-tax-location-code": null
+          },
+          "relationships": {
+            "inventory-items": {
+              "links": {
+                "self": "http://www.example.com/api/locations/1/relationships/inventory-items",
+                "related": "http://www.example.com/api/locations/1/inventory-items"
+              }
+            },
+            "company": {
+              "links": {
+                "self": "http://www.example.com/api/locations/1/relationships/company",
+                "related": "http://www.example.com/api/locations/1/company"
+              }
+            },
+            "bank-account": {
+              "links": {
+                "self": "http://www.example.com/api/locations/1/relationships/bank-account",
+                "related": "http://www.example.com/api/locations/1/bank-account"
+              }
+            }
+          }
+        },
+        {
+          "id": "9",
+          "type": "supplier-order-records",
+          "links": {
+            "self": "http://www.example.com/api/supplier-order-records/9"
+          },
+          "attributes": {
+            "work-order-number": ""
+          },
+          "relationships": {
+            "order": {
+              "links": {
+                "self": "http://www.example.com/api/supplier-order-records/9/relationships/order",
+                "related": "http://www.example.com/api/supplier-order-records/9/order"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
