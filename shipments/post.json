@@ -1,0 +1,31 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "actual-shipping-cost-in-cents": 123,
+          "carrier": "ups",
+          "notes": "This is a comment for the buyer",
+          "private-notes": "This is a comment for the seller",
+          "tracking-number": "123456",
+          "work-order-number": ""
+        },
+        "relationships": {
+          "order": {
+            "data": {
+              "id": "@id",
+              "type": "orders"
+            }
+          },
+          "order-items": {
+            "data": "@json"
+          }
+        },
+        "type": "shipments"
+      }
+    }
+  },
+  "response": {
+    "body": {}
+  }
+}
