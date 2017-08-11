@@ -1,0 +1,28 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "text": "But I can't be a wizard"
+        },
+        "relationships": {
+          "order": {
+            "data": {
+              "id": "@id",
+              "type": "orders"
+            }
+          },
+          "user": {
+            "data": null
+          }
+        },
+        "type": "order-notes"
+      }
+    }
+  },
+  "response":  {
+    "body": {
+      "data": {}
+    }
+  }
+}
