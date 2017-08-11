@@ -20,9 +20,33 @@
       }
     }
   },
-  "response":  {
+  "response": {
     "body": {
-      "data": {}
+      "data": {
+        "id": "104",
+        "type": "order-notes",
+        "links": {
+          "self": "http://www.example.com/api/order-notes/104"
+        },
+        "attributes": {
+          "text": "But I can't be a wizard",
+          "created-at": "2017-08-11T20:39:00.394Z"
+        },
+        "relationships": {
+          "order": {
+            "links": {
+              "self": "http://www.example.com/api/order-notes/104/relationships/order",
+              "related": "http://www.example.com/api/order-notes/104/order"
+            }
+          },
+          "user": {
+            "links": {
+              "self": "http://www.example.com/api/order-notes/104/relationships/user",
+              "related": "http://www.example.com/api/order-notes/104/user"
+            }
+          }
+        }
+      }
     }
   }
 }
