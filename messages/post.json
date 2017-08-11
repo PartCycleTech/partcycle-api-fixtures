@@ -1,0 +1,59 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "content": "Yer a wizard, Harry",
+          "message-attachment-ids": "[]"
+        },
+        "relationships": {
+          "conversation": {
+            "data": {
+              "id": "@id",
+              "type": "conversations"
+            }
+          }
+        },
+        "type": "messages"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "173",
+        "type": "messages",
+        "links": {
+          "self": "http://www.example.com/api/messages/173"
+        },
+        "attributes": {
+          "content": "Yer a wizard, Harry",
+          "created-at": "2017-08-11T16:32:07.724Z",
+          "is-read": true,
+          "message-attachment-ids": "[]"
+        },
+        "relationships": {
+          "conversation": {
+            "links": {
+              "self": "http://www.example.com/api/messages/173/relationships/conversation",
+              "related": "http://www.example.com/api/messages/173/conversation"
+            }
+          },
+          "user": {
+            "links": {
+              "self": "http://www.example.com/api/messages/173/relationships/user",
+              "related": "http://www.example.com/api/messages/173/user"
+            }
+          },
+          "message-attachments": {
+            "links": {
+              "self": "http://www.example.com/api/messages/173/relationships/message-attachments",
+              "related": "http://www.example.com/api/messages/173/message-attachments"
+            }
+          }
+        }
+      }
+    }
+  }
+}
