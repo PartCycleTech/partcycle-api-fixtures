@@ -6,15 +6,15 @@
     "status": "200",
     "body": {
       "data": {
-        "id": "123",
+        "id": "1464",
         "type": "orders",
         "links": {
-          "self": "http://www.example.com/api/orders/123"
+          "self": "http://www.example.com/api/orders/1464"
         },
         "attributes": {
           "confirmation-number": "1502342187707",
-          "created-at": "2017-08-10T08:48:59.657Z",
-          "updated-at": "2017-08-10T08:48:59.687Z",
+          "created-at": "2017-08-11T16:40:47.966Z",
+          "updated-at": "2017-08-11T16:40:47.988Z",
           "status-updated-at": "2017-08-10T06:53:03.347Z",
           "status": "awaiting_shipment",
           "is-open": true,
@@ -25,34 +25,34 @@
         "relationships": {
           "credit-card": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/credit-card",
-              "related": "http://www.example.com/api/orders/123/credit-card"
+              "self": "http://www.example.com/api/orders/1464/relationships/credit-card",
+              "related": "http://www.example.com/api/orders/1464/credit-card"
             },
             "data": {
               "type": "credit-cards",
-              "id": "9"
+              "id": "2933"
             }
           },
           "inventory-items": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/inventory-items",
-              "related": "http://www.example.com/api/orders/123/inventory-items"
+              "self": "http://www.example.com/api/orders/1464/relationships/inventory-items",
+              "related": "http://www.example.com/api/orders/1464/inventory-items"
             },
             "data": [
               {
                 "type": "inventory-items",
-                "id": "100"
+                "id": "4894"
               },
               {
                 "type": "inventory-items",
-                "id": "101"
+                "id": "4895"
               }
             ]
           },
           "order-items": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/order-items",
-              "related": "http://www.example.com/api/orders/123/order-items"
+              "self": "http://www.example.com/api/orders/1464/relationships/order-items",
+              "related": "http://www.example.com/api/orders/1464/order-items"
             },
             "data": [
               {
@@ -67,87 +67,94 @@
           },
           "billing-address": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/billing-address",
-              "related": "http://www.example.com/api/orders/123/billing-address"
+              "self": "http://www.example.com/api/orders/1464/relationships/billing-address",
+              "related": "http://www.example.com/api/orders/1464/billing-address"
             },
             "data": {
               "type": "addresses",
-              "id": "12"
+              "id": "14567"
             }
           },
           "shipping-address": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/shipping-address",
-              "related": "http://www.example.com/api/orders/123/shipping-address"
+              "self": "http://www.example.com/api/orders/1464/relationships/shipping-address",
+              "related": "http://www.example.com/api/orders/1464/shipping-address"
             },
             "data": {
               "type": "addresses",
-              "id": "12"
+              "id": "14567"
             }
           },
           "user": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/user",
-              "related": "http://www.example.com/api/orders/123/user"
+              "self": "http://www.example.com/api/orders/1464/relationships/user",
+              "related": "http://www.example.com/api/orders/1464/user"
             },
             "data": {
               "type": "users",
-              "id": "15"
+              "id": "28122"
             }
           },
           "shipments": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/shipments",
-              "related": "http://www.example.com/api/orders/123/shipments"
+              "self": "http://www.example.com/api/orders/1464/relationships/shipments",
+              "related": "http://www.example.com/api/orders/1464/shipments"
             },
-            "data": []
+            "data": [
+
+            ]
           },
           "location": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/location",
-              "related": "http://www.example.com/api/orders/123/location"
+              "self": "http://www.example.com/api/orders/1464/relationships/location",
+              "related": "http://www.example.com/api/orders/1464/location"
             },
             "data": {
               "type": "locations",
-              "id": "1"
+              "id": "4532"
             }
           },
           "returns": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/returns",
-              "related": "http://www.example.com/api/orders/123/returns"
+              "self": "http://www.example.com/api/orders/1464/relationships/returns",
+              "related": "http://www.example.com/api/orders/1464/returns"
             }
           },
           "order-cancellation": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/order-cancellation",
-              "related": "http://www.example.com/api/orders/123/order-cancellation"
+              "self": "http://www.example.com/api/orders/1464/relationships/order-cancellation",
+              "related": "http://www.example.com/api/orders/1464/order-cancellation"
             },
             "data": null
           },
           "order-notes": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/order-notes",
-              "related": "http://www.example.com/api/orders/123/order-notes"
+              "self": "http://www.example.com/api/orders/1464/relationships/order-notes",
+              "related": "http://www.example.com/api/orders/1464/order-notes"
             }
           },
           "order-events": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/order-events",
-              "related": "http://www.example.com/api/orders/123/order-events"
+              "self": "http://www.example.com/api/orders/1464/relationships/order-events",
+              "related": "http://www.example.com/api/orders/1464/order-events"
             }
           },
           "conversations": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/conversations",
-              "related": "http://www.example.com/api/orders/123/conversations"
+              "self": "http://www.example.com/api/orders/1464/relationships/conversations",
+              "related": "http://www.example.com/api/orders/1464/conversations"
             },
-            "data": []
+            "data": [
+              {
+                "type": "conversations",
+                "id": "254"
+              }
+            ]
           },
           "supplier-order-record": {
             "links": {
-              "self": "http://www.example.com/api/orders/123/relationships/supplier-order-record",
-              "related": "http://www.example.com/api/orders/123/supplier-order-record"
+              "self": "http://www.example.com/api/orders/1464/relationships/supplier-order-record",
+              "related": "http://www.example.com/api/orders/1464/supplier-order-record"
             },
             "data": {
               "type": "supplier-order-records",
@@ -158,10 +165,10 @@
       },
       "included": [
         {
-          "id": "9",
+          "id": "2933",
           "type": "credit-cards",
           "links": {
-            "self": "http://www.example.com/api/credit-cards/9"
+            "self": "http://www.example.com/api/credit-cards/2933"
           },
           "attributes": {
             "last-four-digits": "4242",
@@ -172,10 +179,10 @@
           }
         },
         {
-          "id": "2181",
+          "id": "4967",
           "type": "part-kinds",
           "links": {
-            "self": "http://www.example.com/api/part-kinds/2181"
+            "self": "http://www.example.com/api/part-kinds/4967"
           },
           "attributes": {
             "name": "Engine Assembly 144",
@@ -193,10 +200,10 @@
           }
         },
         {
-          "id": "2185",
+          "id": "4968",
           "type": "part-kinds",
           "links": {
-            "self": "http://www.example.com/api/part-kinds/2185"
+            "self": "http://www.example.com/api/part-kinds/4968"
           },
           "attributes": {
             "name": "Engine Assembly 148",
@@ -214,10 +221,10 @@
           }
         },
         {
-          "id": "2181",
+          "id": "4939",
           "type": "parts",
           "links": {
-            "self": "http://www.example.com/api/parts/2181"
+            "self": "http://www.example.com/api/parts/4939"
           },
           "attributes": {
             "hollander-interchange": "100-00144AL",
@@ -227,45 +234,45 @@
           "relationships": {
             "diagrams": {
               "links": {
-                "self": "http://www.example.com/api/parts/2181/relationships/diagrams",
-                "related": "http://www.example.com/api/parts/2181/diagrams"
+                "self": "http://www.example.com/api/parts/4939/relationships/diagrams",
+                "related": "http://www.example.com/api/parts/4939/diagrams"
               }
             },
             "inventory-items": {
               "links": {
-                "self": "http://www.example.com/api/parts/2181/relationships/inventory-items",
-                "related": "http://www.example.com/api/parts/2181/inventory-items"
+                "self": "http://www.example.com/api/parts/4939/relationships/inventory-items",
+                "related": "http://www.example.com/api/parts/4939/inventory-items"
               }
             },
             "vehicles": {
               "links": {
-                "self": "http://www.example.com/api/parts/2181/relationships/vehicles",
-                "related": "http://www.example.com/api/parts/2181/vehicles"
+                "self": "http://www.example.com/api/parts/4939/relationships/vehicles",
+                "related": "http://www.example.com/api/parts/4939/vehicles"
               }
             },
             "part-kind": {
               "links": {
-                "self": "http://www.example.com/api/parts/2181/relationships/part-kind",
-                "related": "http://www.example.com/api/parts/2181/part-kind"
+                "self": "http://www.example.com/api/parts/4939/relationships/part-kind",
+                "related": "http://www.example.com/api/parts/4939/part-kind"
               },
               "data": {
                 "type": "part-kinds",
-                "id": "2181"
+                "id": "4967"
               }
             },
             "part-images": {
               "links": {
-                "self": "http://www.example.com/api/parts/2181/relationships/part-images",
-                "related": "http://www.example.com/api/parts/2181/part-images"
+                "self": "http://www.example.com/api/parts/4939/relationships/part-images",
+                "related": "http://www.example.com/api/parts/4939/part-images"
               }
             }
           }
         },
         {
-          "id": "2185",
+          "id": "4940",
           "type": "parts",
           "links": {
-            "self": "http://www.example.com/api/parts/2185"
+            "self": "http://www.example.com/api/parts/4940"
           },
           "attributes": {
             "hollander-interchange": "100-00148AL",
@@ -275,45 +282,45 @@
           "relationships": {
             "diagrams": {
               "links": {
-                "self": "http://www.example.com/api/parts/2185/relationships/diagrams",
-                "related": "http://www.example.com/api/parts/2185/diagrams"
+                "self": "http://www.example.com/api/parts/4940/relationships/diagrams",
+                "related": "http://www.example.com/api/parts/4940/diagrams"
               }
             },
             "inventory-items": {
               "links": {
-                "self": "http://www.example.com/api/parts/2185/relationships/inventory-items",
-                "related": "http://www.example.com/api/parts/2185/inventory-items"
+                "self": "http://www.example.com/api/parts/4940/relationships/inventory-items",
+                "related": "http://www.example.com/api/parts/4940/inventory-items"
               }
             },
             "vehicles": {
               "links": {
-                "self": "http://www.example.com/api/parts/2185/relationships/vehicles",
-                "related": "http://www.example.com/api/parts/2185/vehicles"
+                "self": "http://www.example.com/api/parts/4940/relationships/vehicles",
+                "related": "http://www.example.com/api/parts/4940/vehicles"
               }
             },
             "part-kind": {
               "links": {
-                "self": "http://www.example.com/api/parts/2185/relationships/part-kind",
-                "related": "http://www.example.com/api/parts/2185/part-kind"
+                "self": "http://www.example.com/api/parts/4940/relationships/part-kind",
+                "related": "http://www.example.com/api/parts/4940/part-kind"
               },
               "data": {
                 "type": "part-kinds",
-                "id": "2185"
+                "id": "4968"
               }
             },
             "part-images": {
               "links": {
-                "self": "http://www.example.com/api/parts/2185/relationships/part-images",
-                "related": "http://www.example.com/api/parts/2185/part-images"
+                "self": "http://www.example.com/api/parts/4940/relationships/part-images",
+                "related": "http://www.example.com/api/parts/4940/part-images"
               }
             }
           }
         },
         {
-          "id": "100",
+          "id": "4894",
           "type": "inventory-items",
           "links": {
-            "self": "http://www.example.com/api/inventory-items/100"
+            "self": "http://www.example.com/api/inventory-items/4894"
           },
           "attributes": {
             "company-name": "Bob Dylan's Highway 61 Auto",
@@ -326,7 +333,7 @@
             "description": "INCLUDES MOUNTING HARDWARE",
             "stock-number": "ABC123",
             "stock-location": "R1",
-            "stock-date-added": "2017-08-10",
+            "stock-date-added": "2017-08-11",
             "is-available-for-search": null,
             "intelligent-description": "",
             "purchase-price-in-cents": 12300,
@@ -336,39 +343,39 @@
           "relationships": {
             "donor-car": {
               "links": {
-                "self": "http://www.example.com/api/inventory-items/100/relationships/donor-car",
-                "related": "http://www.example.com/api/inventory-items/100/donor-car"
+                "self": "http://www.example.com/api/inventory-items/4894/relationships/donor-car",
+                "related": "http://www.example.com/api/inventory-items/4894/donor-car"
               }
             },
             "part": {
               "links": {
-                "self": "http://www.example.com/api/inventory-items/100/relationships/part",
-                "related": "http://www.example.com/api/inventory-items/100/part"
+                "self": "http://www.example.com/api/inventory-items/4894/relationships/part",
+                "related": "http://www.example.com/api/inventory-items/4894/part"
               },
               "data": {
                 "type": "parts",
-                "id": "2181"
+                "id": "4939"
               }
             },
             "location": {
               "links": {
-                "self": "http://www.example.com/api/inventory-items/100/relationships/location",
-                "related": "http://www.example.com/api/inventory-items/100/location"
+                "self": "http://www.example.com/api/inventory-items/4894/relationships/location",
+                "related": "http://www.example.com/api/inventory-items/4894/location"
               }
             },
             "inventory-item-images": {
               "links": {
-                "self": "http://www.example.com/api/inventory-items/100/relationships/inventory-item-images",
-                "related": "http://www.example.com/api/inventory-items/100/inventory-item-images"
+                "self": "http://www.example.com/api/inventory-items/4894/relationships/inventory-item-images",
+                "related": "http://www.example.com/api/inventory-items/4894/inventory-item-images"
               }
             }
           }
         },
         {
-          "id": "101",
+          "id": "4895",
           "type": "inventory-items",
           "links": {
-            "self": "http://www.example.com/api/inventory-items/101"
+            "self": "http://www.example.com/api/inventory-items/4895"
           },
           "attributes": {
             "company-name": "Bob Dylan's Highway 61 Auto",
@@ -381,7 +388,7 @@
             "description": "INCLUDES MOUNTING HARDWARE",
             "stock-number": "ABC123",
             "stock-location": "R1",
-            "stock-date-added": "2017-08-10",
+            "stock-date-added": "2017-08-11",
             "is-available-for-search": null,
             "intelligent-description": "",
             "purchase-price-in-cents": 12300,
@@ -391,30 +398,30 @@
           "relationships": {
             "donor-car": {
               "links": {
-                "self": "http://www.example.com/api/inventory-items/101/relationships/donor-car",
-                "related": "http://www.example.com/api/inventory-items/101/donor-car"
+                "self": "http://www.example.com/api/inventory-items/4895/relationships/donor-car",
+                "related": "http://www.example.com/api/inventory-items/4895/donor-car"
               }
             },
             "part": {
               "links": {
-                "self": "http://www.example.com/api/inventory-items/101/relationships/part",
-                "related": "http://www.example.com/api/inventory-items/101/part"
+                "self": "http://www.example.com/api/inventory-items/4895/relationships/part",
+                "related": "http://www.example.com/api/inventory-items/4895/part"
               },
               "data": {
                 "type": "parts",
-                "id": "2185"
+                "id": "4940"
               }
             },
             "location": {
               "links": {
-                "self": "http://www.example.com/api/inventory-items/101/relationships/location",
-                "related": "http://www.example.com/api/inventory-items/101/location"
+                "self": "http://www.example.com/api/inventory-items/4895/relationships/location",
+                "related": "http://www.example.com/api/inventory-items/4895/location"
               }
             },
             "inventory-item-images": {
               "links": {
-                "self": "http://www.example.com/api/inventory-items/101/relationships/inventory-item-images",
-                "related": "http://www.example.com/api/inventory-items/101/inventory-item-images"
+                "self": "http://www.example.com/api/inventory-items/4895/relationships/inventory-item-images",
+                "related": "http://www.example.com/api/inventory-items/4895/inventory-item-images"
               }
             }
           }
@@ -455,7 +462,7 @@
               },
               "data": {
                 "type": "inventory-items",
-                "id": "100"
+                "id": "4894"
               }
             },
             "return": {
@@ -476,7 +483,9 @@
                 "self": "http://www.example.com/api/order-items/49/relationships/proof-of-condition-images",
                 "related": "http://www.example.com/api/order-items/49/proof-of-condition-images"
               },
-              "data": []
+              "data": [
+
+              ]
             }
           }
         },
@@ -516,7 +525,7 @@
               },
               "data": {
                 "type": "inventory-items",
-                "id": "101"
+                "id": "4895"
               }
             },
             "return": {
@@ -537,15 +546,17 @@
                 "self": "http://www.example.com/api/order-items/50/relationships/proof-of-condition-images",
                 "related": "http://www.example.com/api/order-items/50/proof-of-condition-images"
               },
-              "data": []
+              "data": [
+
+              ]
             }
           }
         },
         {
-          "id": "12",
+          "id": "14567",
           "type": "addresses",
           "links": {
-            "self": "http://www.example.com/api/addresses/12"
+            "self": "http://www.example.com/api/addresses/14567"
           },
           "attributes": {
             "name": "Andromeda Tonks",
@@ -559,10 +570,10 @@
           }
         },
         {
-          "id": "15",
+          "id": "28122",
           "type": "users",
           "links": {
-            "self": "http://www.example.com/api/users/15"
+            "self": "http://www.example.com/api/users/28122"
           },
           "attributes": {
             "name": "John Doe",
@@ -577,29 +588,29 @@
           "relationships": {
             "default-billing-address": {
               "links": {
-                "self": "http://www.example.com/api/users/15/relationships/default-billing-address",
-                "related": "http://www.example.com/api/users/15/default-billing-address"
+                "self": "http://www.example.com/api/users/28122/relationships/default-billing-address",
+                "related": "http://www.example.com/api/users/28122/default-billing-address"
               }
             },
             "default-credit-card": {
               "links": {
-                "self": "http://www.example.com/api/users/15/relationships/default-credit-card",
-                "related": "http://www.example.com/api/users/15/default-credit-card"
+                "self": "http://www.example.com/api/users/28122/relationships/default-credit-card",
+                "related": "http://www.example.com/api/users/28122/default-credit-card"
               }
             },
             "default-shipping-address": {
               "links": {
-                "self": "http://www.example.com/api/users/15/relationships/default-shipping-address",
-                "related": "http://www.example.com/api/users/15/default-shipping-address"
+                "self": "http://www.example.com/api/users/28122/relationships/default-shipping-address",
+                "related": "http://www.example.com/api/users/28122/default-shipping-address"
               }
             }
           }
         },
         {
-          "id": "1",
+          "id": "4532",
           "type": "locations",
           "links": {
-            "self": "http://www.example.com/api/locations/1"
+            "self": "http://www.example.com/api/locations/4532"
           },
           "attributes": {
             "street": "7920 Glenlake Avenue",
@@ -618,20 +629,60 @@
           "relationships": {
             "inventory-items": {
               "links": {
-                "self": "http://www.example.com/api/locations/1/relationships/inventory-items",
-                "related": "http://www.example.com/api/locations/1/inventory-items"
+                "self": "http://www.example.com/api/locations/4532/relationships/inventory-items",
+                "related": "http://www.example.com/api/locations/4532/inventory-items"
               }
             },
             "company": {
               "links": {
-                "self": "http://www.example.com/api/locations/1/relationships/company",
-                "related": "http://www.example.com/api/locations/1/company"
+                "self": "http://www.example.com/api/locations/4532/relationships/company",
+                "related": "http://www.example.com/api/locations/4532/company"
               }
             },
             "bank-account": {
               "links": {
-                "self": "http://www.example.com/api/locations/1/relationships/bank-account",
-                "related": "http://www.example.com/api/locations/1/bank-account"
+                "self": "http://www.example.com/api/locations/4532/relationships/bank-account",
+                "related": "http://www.example.com/api/locations/4532/bank-account"
+              }
+            }
+          }
+        },
+        {
+          "id": "254",
+          "type": "conversations",
+          "links": {
+            "self": "http://www.example.com/api/conversations/254"
+          },
+          "attributes": {
+            "subject": "1502342187707",
+            "company-name": "Bob Dylan's Highway 61 Auto"
+          },
+          "relationships": {
+            "inventory-item": {
+              "links": {
+                "self": "http://www.example.com/api/conversations/254/relationships/inventory-item",
+                "related": "http://www.example.com/api/conversations/254/inventory-item"
+              }
+            },
+            "messages": {
+              "links": {
+                "self": "http://www.example.com/api/conversations/254/relationships/messages",
+                "related": "http://www.example.com/api/conversations/254/messages"
+              },
+              "data": [
+
+              ]
+            },
+            "order": {
+              "links": {
+                "self": "http://www.example.com/api/conversations/254/relationships/order",
+                "related": "http://www.example.com/api/conversations/254/order"
+              }
+            },
+            "user": {
+              "links": {
+                "self": "http://www.example.com/api/conversations/254/relationships/user",
+                "related": "http://www.example.com/api/conversations/254/user"
               }
             }
           }
