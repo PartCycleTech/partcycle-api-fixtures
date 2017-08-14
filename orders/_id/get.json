@@ -19,7 +19,6 @@
           "status": "awaiting_shipment",
           "is-open": true,
           "total-in-cents": 10000,
-          "refund-total-in-cents": 0,
           "platform-fee-in-cents": 1200,
           "has-open-returns": false,
           "has-closed-returns": false,
