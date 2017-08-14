@@ -20,7 +20,9 @@
           "is-open": true,
           "total-in-cents": 10000,
           "platform-fee-in-cents": 1200,
-          "has-open-returns": false
+          "has-open-returns": false,
+          "has-closed-returns": false,
+          "extended-status": "awaiting_shipment"
         },
         "relationships": {
           "credit-card": {
