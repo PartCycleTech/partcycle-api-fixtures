@@ -9,7 +9,7 @@
         "relationships": {
           "conversation": {
             "data": {
-              "id": "@id",
+              "id": "id#conversation-id",
               "type": "conversations"
             }
           }

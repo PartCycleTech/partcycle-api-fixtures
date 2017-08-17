@@ -8,7 +8,7 @@
         "relationships": {
           "order": {
             "data": {
-              "id": "@id",
+              "id": "id#order-id",
               "type": "orders"
             }
           },

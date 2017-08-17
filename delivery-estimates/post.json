@@ -9,7 +9,7 @@
         "relationships": {
           "inventory-item": {
             "data": {
-              "id": "@id",
+              "id": "id#inventory-item-id",
               "type": "inventory-items"
             }
           }
@@ -22,7 +22,7 @@
     "status": "202",
     "body": {
       "data": {
-        "id": "@id",
+        "id": "id#delivery-estimate-id",
         "attributes": {
           "delivery-date": "2017-06-23",
           "to-zip": "35630"
