@@ -19,6 +19,18 @@
     }
   },
   "response": {
-    "body": {}
+    "status": "200",
+    "body": {
+      "data": {
+        "id": "id#supplier-order-record-id",
+        "type": "supplier-order-records",
+        "attributes": {
+          "work-order-number": "foo bar"
+        },
+        "relationships": {
+          "order": {}
+        }
+      }
+    }
   }
 }
