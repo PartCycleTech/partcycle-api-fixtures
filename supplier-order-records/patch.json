@@ -1,0 +1,36 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "work-order-number": "W1234"
+        },
+        "id": "id#supplier-order-record-id",
+        "relationships": {
+          "order": {
+            "data": {
+              "id": "id#order-id",
+              "type": "orders"
+            }
+          }
+        },
+        "type": "supplier-order-records"
+      }
+    }
+  },
+  "response": {
+    "status": "200",
+    "body": {
+      "data": {
+        "id": "id#supplier-order-record-id",
+        "type": "supplier-order-records",
+        "attributes": {
+          "work-order-number": "foo bar"
+        },
+        "relationships": {
+          "order": {}
+        }
+      }
+    }
+  }
+}
