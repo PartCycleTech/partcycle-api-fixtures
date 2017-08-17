@@ -45,7 +45,7 @@ An example fixture:
         "relationships": {
           "inventory-item": {
             "data": {
-              "id": "@id",
+              "id": "id#inventory-item-id",
               "type": "inventory-items"
             }
           }
@@ -76,10 +76,11 @@ Ordering does not matter. You might notice the value `@id` in both the request a
 
 There are some values which are best not hard-coded into the fixtures. Resource id's are an example. Hard-coding any specific id value might make writing the tests unnecessarily challenging. We don't care if the specific ids match, just that *some* valid id is used. This is where flex params come in.
 
-To specify a flex param, just use the `@` symbol with the param name as the value in the fixture.
+To specify a flex param, use the format: `type#identifier`
 
 Currently supported flex params:
 - `id` | any non-empty string
+  - e.g. `id#my-order-id`
 
 ### File path conventions
 
