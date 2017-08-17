@@ -35,6 +35,30 @@
     }
   },
   "response": {
-    "body": {}
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "3",
+        "type": "shipments",
+        "links": {
+          "self": "http://www.example.com/api/shipments/3"
+        },
+        "attributes": {
+          "carrier": "Joe's Freight",
+          "tracking-number": "123",
+          "notes": "Notes",
+          "created-at": "2017-08-17T17:33:19.547Z",
+          "computed-tracking-page-url": "",
+          "work-order-number": null,
+          "actual-shipping-cost-in-cents": null,
+          "private-notes": null
+        },
+        "relationships": {
+          "order": {},
+          "order-items": {},
+          "shipment-items": {}
+        }
+      }
+    }
   }
 }
