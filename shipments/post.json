@@ -13,7 +13,7 @@
         "relationships": {
           "order": {
             "data": {
-              "id": "id#check-123",
+              "id": "id#order-id",
               "type": "orders"
             }
           },
