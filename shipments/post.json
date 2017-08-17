@@ -13,12 +13,21 @@
         "relationships": {
           "order": {
             "data": {
-              "id": "@id",
+              "id": "id#check-123",
               "type": "orders"
             }
           },
           "order-items": {
-            "data": "@json"
+            "data": [
+              {
+                "type": "order-items",
+                "id": "id#order-item-1"
+              },
+              {
+                "type": "order-items",
+                "id": "id#order-item-2"
+              }
+            ]
           }
         },
         "type": "shipments"
