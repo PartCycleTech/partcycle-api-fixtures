@@ -25,6 +25,8 @@
           "shipping-total-in-cents": 4000,
           "tax-total-in-cents": 0,
           "supplier-net-in-cents": 12800,
+          "purchase-price-total-in-cents": 13000,
+          "additional-shipping-total-in-cents": 1000,
           "has-open-returns": false,
           "has-closed-returns": false,
           "extended-status": "awaiting_shipment",
