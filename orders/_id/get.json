@@ -593,7 +593,9 @@
             "has-supplier-registration": false,
             "kind": "i_work_on_my_own_vehicles",
             "is-premier-buyer": false,
-            "nickname": "Johnny"
+            "nickname": "Johnny",
+            "referrer": null,
+            "search-affiliate": null
           },
           "relationships": {
             "default-billing-address": {
