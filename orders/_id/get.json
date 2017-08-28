@@ -459,7 +459,10 @@
             "search-vehicle-make": "Ford",
             "search-vehicle-model": "F-150",
             "search-vehicle-application": "4.8L, VIN 123",
-            "total-price-in-cents": 12000
+            "total-price-in-cents": 12000,
+            "net-platform-fee-in-cents": 1200,
+            "refund-amount-in-cents": null,
+            "supplier-net-in-cents": 10800
           },
           "relationships": {
             "order": {
@@ -523,7 +526,10 @@
             "search-vehicle-make": "Ford",
             "search-vehicle-model": "F-150",
             "search-vehicle-application": "4.8L, VIN 123",
-            "total-price-in-cents": 12000
+            "total-price-in-cents": 12000,
+            "net-platform-fee-in-cents": 1200,
+            "refund-amount-in-cents": null,
+            "supplier-net-in-cents": 10800
           },
           "relationships": {
             "order": {
