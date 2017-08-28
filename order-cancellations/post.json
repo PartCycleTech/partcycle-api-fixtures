@@ -15,25 +15,14 @@
     "status": "201",
     "body": {
       "data": {
-        "id": "12",
+        "id": "169",
         "type": "order-cancellations",
-        "links": {
-          "self": "http://www.example.com/api/order-cancellations/12"
-        },
         "attributes": {
           "order-id": "id#order-id",
           "user-id": "id#user-id",
           "reason": "could_not_be_shipped_quickly",
           "custom-reason-text": "",
-          "created-at": "2017-08-25T19:43:34.017Z"
-        },
-        "relationships": {
-          "order": {
-            "links": {
-              "self": "http://www.example.com/api/order-cancellations/12/relationships/order",
-              "related": "http://www.example.com/api/order-cancellations/12/order"
-            }
-          }
+          "created-at": "2017-08-28T16:04:07.891Z"
         }
       }
     }
