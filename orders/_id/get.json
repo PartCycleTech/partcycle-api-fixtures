@@ -27,6 +27,8 @@
           "supplier-net-in-cents": 21600,
           "purchase-price-total-in-cents": 23000,
           "additional-shipping-total-in-cents": 1000,
+          "net-platform-fee-in-cents": 2400,
+          "refund-total-in-cents": 0,
           "has-open-returns": false,
           "has-closed-returns": false,
           "extended-status": "awaiting_shipment",
