@@ -1,0 +1,41 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "custom-reason-text": "",
+          "order-id": "id#order-id",
+          "reason": "could_not_be_shipped_quickly"
+        },
+        "type": "order-cancellations"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "12",
+        "type": "order-cancellations",
+        "links": {
+          "self": "http://www.example.com/api/order-cancellations/12"
+        },
+        "attributes": {
+          "order-id": "id#order-id",
+          "user-id": "id#user-id",
+          "reason": "could_not_be_shipped_quickly",
+          "custom-reason-text": "",
+          "created-at": "2017-08-25T19:43:34.017Z"
+        },
+        "relationships": {
+          "order": {
+            "links": {
+              "self": "http://www.example.com/api/order-cancellations/12/relationships/order",
+              "related": "http://www.example.com/api/order-cancellations/12/order"
+            }
+          }
+        }
+      }
+    }
+  }
+}
