@@ -463,6 +463,8 @@
             "net-platform-fee-in-cents": 1200,
             "refund-amount-in-cents": null,
             "supplier-net-in-cents": 10800,
+            "retail-price-in-cents": 10000,
+            "retail-net-in-cents": 8800,
             "supplier-status": "unfulfilled"
           },
           "relationships": {
@@ -531,6 +533,8 @@
             "net-platform-fee-in-cents": 1200,
             "refund-amount-in-cents": null,
             "supplier-net-in-cents": 10800,
+            "retail-price-in-cents": 10000,
+            "retail-net-in-cents": 8800,
             "supplier-status": "unfulfilled"
           },
           "relationships": {
