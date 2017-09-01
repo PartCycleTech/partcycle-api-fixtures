@@ -1,0 +1,55 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "email": "demo+janedoe@partcycle.com",
+          "kind": "diy",
+          "name": "Jane Doe",
+          "nickname": "Jane",
+          "password": "partcycle",
+          "referrer": "any#referrer",
+          "search-affiliate": null
+        },
+        "relationships": {
+          "default-billing-address": {
+            "data": null
+          },
+          "default-credit-card": {
+            "data": null
+          },
+          "default-shipping-address": {
+            "data": null
+          }
+        },
+        "type": "users"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "id#user-id",
+        "type": "users",
+        "attributes": {
+          "name": "Jane Doe",
+          "email": "demo+janedoe@partcycle.com",
+          "current-password": null,
+          "is-supplier": false,
+          "has-supplier-registration": false,
+          "kind": "diy",
+          "is-premier-buyer": false,
+          "nickname": "Jane",
+          "referrer": "any#referrer",
+          "search-affiliate": null
+        },
+        "relationships": {
+          "default-billing-address": {},
+          "default-credit-card": {},
+          "default-shipping-address": {}
+        }
+      }
+    }
+  }
+}
