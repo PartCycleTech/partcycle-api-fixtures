@@ -58,7 +58,7 @@ An example fixture:
     "status": "202",
     "body": {
       "data": {
-        "id": "@id",
+        "id": "id#delivery-estimate-id",
         "attributes": {
           "delivery-date": "2017-06-23",
           "to-zip": "35630"
@@ -70,7 +70,7 @@ An example fixture:
 }
 ```
 
-Ordering does not matter. You might notice the value `@id` in both the request and the response. This brings us to the next concept - flex params.
+Ordering does not matter. You might notice the value `id#...` in both the request and the response. This brings us to the next concept - flex params.
 
 ### Flex Params
 
@@ -81,6 +81,8 @@ To specify a flex param, use the format: `type#identifier`
 Currently supported flex params:
 - `id` | any non-empty string
   - e.g. `id#my-order-id`
+- `any` | any value, even empty string (no restrictions)
+  - e.g. `any#my-ignored-value`
 
 ### File path conventions
 
