@@ -8,7 +8,7 @@
           "name": "Jane Doe",
           "nickname": "Jane",
           "password": "partcycle",
-          "referrer": "any#referrer",
+          "referrer": "any#referrer-request",
           "search-affiliate": null
         },
         "relationships": {
@@ -41,7 +41,7 @@
           "kind": "diy",
           "is-premier-buyer": false,
           "nickname": "Jane",
-          "referrer": "any#referrer",
+          "referrer": "any#referrer-response",
           "search-affiliate": null
         },
         "relationships": {
