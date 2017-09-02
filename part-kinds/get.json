@@ -1,0 +1,47 @@
+{
+  "request": {
+    "body": null
+  },
+  "response": {
+    "status": "200",
+    "body": {
+      "data": [
+        {
+          "id": "id#part-kind-0-id",
+          "type": "part-kinds",
+          "attributes": {
+            "name": "Engine Assembly",
+            "hollander-part-type": "123",
+            "alternate-names": [
+              "Engine"
+            ],
+            "whats-included": "Ice cold beer",
+            "whats-not-included": "Pizza",
+            "ara-definition": "Body",
+            "is-available-for-sale": true,
+            "youtube-id": null
+          }
+        },
+        {
+          "id": "id#part-kind-1-id",
+          "type": "part-kinds",
+          "attributes": {
+            "name": "Headlight",
+            "hollander-part-type": "456",
+            "alternate-names": [
+              "Headlamp"
+            ],
+            "whats-included": "Vanilla Chai Latte",
+            "whats-not-included": "Gluten-free Hummus Wrap",
+            "ara-definition": "Mech.",
+            "is-available-for-sale": true,
+            "youtube-id": null
+          }
+        }
+      ],
+      "meta": {
+        "record-count": 2
+      }
+    }
+  }
+}
