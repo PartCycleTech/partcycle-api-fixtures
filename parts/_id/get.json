@@ -1,0 +1,19 @@
+{
+  "request": {
+    "body": null
+  },
+  "response": {
+    "status": "200",
+    "body": {
+      "data": {
+        "id": "id#part-id",
+        "type": "parts",
+        "attributes": {
+          "name": "any#name",
+          "hollander-interchange": "any#hollander-interchange",
+          "interchange-number": "any#interchange-number"
+        }
+      }
+    }
+  }
+}
