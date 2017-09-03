@@ -9,11 +9,37 @@
         "id": "id#part-id",
         "type": "parts",
         "attributes": {
-          "name": "any#name",
-          "hollander-interchange": "any#hollander-interchange",
-          "interchange-number": "any#interchange-number"
+          "name": "Seatbelt Buckle",
+          "hollander-interchange": "123-45678",
+          "interchange-number": "45678"
+        },
+        "relationships": {
+          "part-kind": {
+            "data": {
+              "id": "id#related-part-kind-id",
+              "type": "part-kinds"
+            }
+          }
         }
-      }
+      },
+      "included": [
+        {
+          "id": "id#included-part-kind-id",
+          "type": "part-kinds",
+          "attributes": {
+            "name": "Seatbelt Buckle",
+            "hollander-part-type": "123",
+            "alternate-names": [
+              "Engine"
+            ],
+            "whats-included": "Ice cold beer",
+            "whats-not-included": "Pizza",
+            "ara-definition": "Body",
+            "is-available-for-sale": true,
+            "youtube-id": null
+          }
+        }
+      ]
     }
   }
 }
