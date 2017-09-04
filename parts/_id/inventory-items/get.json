@@ -1,0 +1,37 @@
+{
+  "request": {
+    "body": null
+  },
+  "response": {
+    "status": "200",
+    "body": {
+      "data": [
+        {
+          "id": "id#inventory-item-id",
+          "type": "inventory-items",
+          "attributes": {
+            "company-name": "Bob Dylan's Highway 61 Auto",
+            "price-in-cents": 10000,
+            "grade": "A",
+             "company-rating": null,
+             "is-available-for-purchase": true,
+             "is-commercial-shipping": false,
+             "is-listed": true,
+             "description": "INCLUDES MOUNTING HARDWARE",
+             "stock-number": "ABC123",
+             "stock-location": "R1",
+             "stock-date-added": "2017-09-03",
+             "is-available-for-search": true,
+             "intelligent-description": "",
+             "purchase-price-in-cents": 12300,
+             "intelligent-quality": "like_new",
+             "yms-unique-id": null
+          }
+        }
+      ],
+      "meta": {
+        "record-count": 1
+      }
+    }
+  }
+}
