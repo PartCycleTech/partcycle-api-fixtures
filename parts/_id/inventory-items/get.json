@@ -26,6 +26,34 @@
              "purchase-price-in-cents": 12300,
              "intelligent-quality": "like_new",
              "yms-unique-id": null
+          },
+          "relationships": {
+            "location": {
+              "data": {
+                "id": "id#related-location-id",
+                "type": "locations"
+              }
+            }
+          }
+        }
+      ],
+      "included": [
+        {
+          "id": "id#included-location-id",
+          "type": "locations",
+          "attributes": {
+            "street": "7920 Glenlake Avenue",
+            "suite": "",
+            "city": "Ankeny",
+            "state": "IA",
+            "zipcode": "50023",
+            "phone-number": "1234567890",
+            "nickname": "My main store",
+            "contact-name": "Bob Dylan",
+            "contact-phone-number": "1234567890",
+            "contact-email": "Bob@Dylan.biz",
+            "last-inventory-import-at": null,
+            "avalara-tax-location-code": null
           }
         }
       ],
