@@ -1,0 +1,20 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "shipping-address-id": "id#shipping-address-id",
+          "billing-address-id": "id#billing-address-id",
+          "credit-card-id": "id#credit-card-id",
+          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":133884,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\"}]",
+          "search-affiliate": null
+        },
+        "type": "order-placements"
+      }
+    }
+  },
+  "response": {
+    "status": "202",
+    "body": {}
+  }
+}
