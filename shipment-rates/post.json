@@ -1,0 +1,27 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "to-zip": "12345"
+        },
+        "relationships": {
+          "inventory-item": {
+            "data": [
+              {
+                "type": "inventory-items",
+                "id": "id#inventory-item-id"
+              }
+            ]
+          }
+        },
+        "type": "shipment-rates"
+      }
+    }
+  },
+  "response": {
+    "status": "202",
+    "body": {
+    }
+  }
+}
