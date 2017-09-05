@@ -3,10 +3,10 @@
     "body": {
       "data": {
         "attributes": {
-          "shipping-address-id": "id#shipping-address-id",
-          "billing-address-id": "id#billing-address-id",
-          "credit-card-id": "id#credit-card-id",
-          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":133884,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\"}]",
+          "shipping-address-id": "id#request-shipping-address-id",
+          "billing-address-id": "id#request-billing-address-id",
+          "credit-card-id": "id#request-credit-card-id",
+          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":12300,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\"}]",
           "search-affiliate": null
         },
         "type": "order-placements"
@@ -14,7 +14,60 @@
     }
   },
   "response": {
-    "status": "202",
-    "body": {}
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "id#order-placement-id",
+        "type": "order-placements",
+        "attributes": {
+          "credit-card-id": "id#response-credit-card-id",
+          "billing-address-id": "id#response-billing-address-id",
+          "shipping-address-id": "id#response-shipping-address-id",
+          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":12300,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\"}]",
+          "referrer": null,
+          "retail-total-in-cents": 10000,
+          "search-affiliate": null
+        },
+        "relationships": {
+          "orders": {
+            "data": [
+              {
+                "type": "orders",
+                "id": "id#related-order-id"
+              }
+            ]
+          }
+        }
+      },
+      "included": [
+        {
+          "id": "id#included-order-id",
+          "type": "orders",
+          "attributes": {
+            "confirmation-number": "any#order-confirmation-number",
+            "created-at": "2017-09-05T06:27:48.729Z",
+            "updated-at": "2017-09-05T06:27:49.979Z",
+            "status-updated-at": "any#order-status-updated-at",
+            "status": "awaiting_shipment",
+            "is-open": true,
+            "total-in-cents": 12300,
+            "platform-fee-in-cents": 1200,
+            "has-open-returns": false,
+            "has-closed-returns": false,
+            "extended-status": "awaiting_shipment",
+            "retail-total-in-cents": 10000,
+            "retail-net-in-cents": 8800,
+            "shipping-total-in-cents": 2300,
+            "tax-total-in-cents": 0,
+            "supplier-net-in-cents": 11100,
+            "supplier-status": "pending",
+            "purchase-price-total-in-cents": 12300,
+            "additional-shipping-total-in-cents": 0,
+            "net-platform-fee-in-cents": 1200,
+            "refund-total-in-cents": 0
+          }
+        }
+      ]
+    }
   }
 }
