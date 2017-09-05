@@ -22,6 +22,63 @@
   "response": {
     "status": "202",
     "body": {
+      "data": {
+        "id": "36240c76-7e0d-415b-89a8-d080def8757f",
+        "type": "shipment-rates",
+        "attributes": {
+          "to-zip": "12345"
+        },
+        "relationships": {
+          "shipment-rate-quotes": {
+            "data": [
+              {
+                "type": "shipment-rate-quotes",
+                "id": "rate_9RGfBG8VHn7XaBJYWHE5aHsh_622"
+              },
+              {
+                "type": "shipment-rate-quotes",
+                "id": "rate_27FYM0XsXP7YjXa3BdwXR1Vh_622"
+              },
+              {
+                "type": "shipment-rate-quotes",
+                "id": "rate_DzfjJGTGCz0XDHQKJ3DYyZAa_622"
+              }
+            ]
+          }
+        }
+      },
+      "included": [
+        {
+          "id": "rate_9RGfBG8VHn7XaBJYWHE5aHsh_622",
+          "type": "shipment-rate-quotes",
+          "attributes": {
+            "carrier": "UPS",
+            "service-level": "Standard Shipping (3-5 Business Days)",
+            "price-in-cents": 0,
+            "inventory-item-id": "id#quote-0-inventory-item-id"
+          }
+        },
+        {
+          "id": "rate_27FYM0XsXP7YjXa3BdwXR1Vh_622",
+          "type": "shipment-rate-quotes",
+          "attributes": {
+            "carrier": "UPS",
+            "service-level": "Two-day Shipping",
+            "price-in-cents": 3028,
+            "inventory-item-id": "id#quote-1-inventory-item-id"
+          }
+        },
+        {
+          "id": "rate_DzfjJGTGCz0XDHQKJ3DYyZAa_622",
+          "type": "shipment-rate-quotes",
+          "attributes": {
+            "carrier": "UPS",
+            "service-level": "Next-day Shipping",
+            "price-in-cents": 8104,
+            "inventory-item-id": "id#quote-2-inventory-item-id"
+          }
+        }
+      ]
     }
   }
 }
