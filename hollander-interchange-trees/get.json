@@ -1,0 +1,82 @@
+{
+  "request": {
+    "body": null
+  },
+  "response": {
+    "status": "200",
+    "body": {
+      "data": {
+        "id": null,
+        "type": "hollander-interchange-trees",
+        "attributes": {
+          "nodes": [
+            {
+              "element": {
+                "note": "With Engine",
+                "part": null,
+                "hollander-part-type": null,
+                "hollander-part-type-name": null,
+                "full-application": "With Engine"
+              },
+              "nodes": [
+                {
+                  "element": {
+                    "note": "5.0 L",
+                    "part": {
+                      "id": "id#part-id"
+                    },
+                    "hollander-part-type": null,
+                    "hollander-part-type-name": null,
+                    "full-application": "With Engine, 5.0 L"
+                  },
+                  "nodes": []
+                },
+                {
+                  "element": {
+                    "note": "A",
+                    "part": null,
+                    "hollander-part-type": null,
+                    "hollander-part-type-name": null,
+                    "full-application": "With Engine, A"
+                  },
+                  "nodes": [
+                    {
+                      "element": {
+                        "note": "B",
+                        "part": null,
+                        "hollander-part-type": null,
+                        "hollander-part-type-name": null,
+                        "full-application": "With Engine, A, B"
+                      },
+                      "nodes": []
+                    },
+                    {
+                      "element": {
+                        "note": "C",
+                        "part": null,
+                        "hollander-part-type": null,
+                        "hollander-part-type-name": null,
+                        "full-application": "With Engine, A, C"
+                      },
+                      "nodes": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "element": {
+                "note": "D",
+                "part": null,
+                "hollander-part-type": null,
+                "hollander-part-type-name": null,
+                "full-application": "D"
+              },
+              "nodes": []
+            }
+          ]
+        }
+      }
+    }
+  }
+}

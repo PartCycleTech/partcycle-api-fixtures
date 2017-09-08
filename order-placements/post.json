@@ -1,0 +1,218 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "shipping-address-id": "id#request-shipping-address-id",
+          "billing-address-id": "id#request-billing-address-id",
+          "credit-card-id": "id#request-credit-card-id",
+          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":12300,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\"}]",
+          "search-affiliate": null
+        },
+        "type": "order-placements"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "id#order-placement-id",
+        "type": "order-placements",
+        "attributes": {
+          "credit-card-id": "id#response-credit-card-id",
+          "billing-address-id": "id#response-billing-address-id",
+          "shipping-address-id": "id#response-shipping-address-id",
+          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":12300,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\"}]",
+          "referrer": null,
+          "retail-total-in-cents": 10000,
+          "search-affiliate": null
+        },
+        "relationships": {
+          "orders": {
+            "data": [
+              {
+                "type": "orders",
+                "id": "id#related-order-id"
+              }
+            ]
+          }
+        }
+      },
+      "included": [
+        {
+          "id": "id#part-id",
+          "type": "parts",
+          "attributes": {
+            "hollander-interchange": "100-00006AL",
+            "interchange-number": "00006AL",
+            "name": "Engine Assembly"
+          }
+        },
+        {
+          "id": "1",
+          "type": "inventory-items",
+          "attributes": {
+            "company-name": "Bob Dylan's Highway 61 Auto",
+            "price-in-cents": 10000,
+            "grade": "A",
+            "company-rating": null,
+            "is-available-for-purchase": false,
+            "is-commercial-shipping": false,
+            "is-listed": true,
+            "description": "INCLUDES MOUNTING HARDWARE",
+            "stock-number": "ABC123",
+            "stock-location": "R1",
+            "stock-date-added": "2017-09-05",
+            "is-available-for-search": false,
+            "intelligent-description": "",
+            "purchase-price-in-cents": 12300,
+            "intelligent-quality": "like_new",
+            "yms-unique-id": null
+          },
+          "relationships": {
+            "part": {
+              "data": {
+                "type": "parts",
+                "id": "id#inventory-item.part-id"
+              }
+            }
+          }
+        },
+        {
+          "id": "id#order-item-id",
+          "type": "order-items",
+          "attributes": {
+            "shipping-carrier": "UPS",
+            "shipping-service-level": "Standard Shipping (3-5 Business Days)",
+            "shipping-price-in-cents": 2300,
+            "additional-shipping-price-in-cents": 0,
+            "included-shipping-price-in-cents": 2300,
+            "purchase-price-in-cents": 12300,
+            "can-be-returned": false,
+            "has-shipped": false,
+            "tax-in-cents": 0,
+            "search-vehicle-year": 2010,
+            "search-vehicle-make": "Ford",
+            "search-vehicle-model": "F-150",
+            "search-vehicle-application": "4.6L, 2V (VIN W, 8th Digit), 6-1/2\" from 5/74",
+            "total-price-in-cents": 12300,
+            "shipping-method": "parcel",
+            "net-platform-fee-in-cents": 1200,
+            "refund-amount-in-cents": null,
+            "supplier-net-in-cents": 11100,
+            "retail-price-in-cents": 10000,
+            "retail-net-in-cents": 8800,
+            "supplier-status": "unfulfilled"
+          },
+          "relationships": {
+            "inventory-item": {
+              "data": {
+                "type": "inventory-items",
+                "id": "1"
+              }
+            }
+          }
+        },
+        {
+          "id": "2495",
+          "type": "addresses",
+          "attributes": {
+            "name": "Rita Skeeter",
+            "street": "200 Arizona co. road",
+            "suite": "",
+            "city": "Atlanta",
+            "state": "ga",
+            "zipcode": "30307-1234",
+            "phone-number": "1234567890",
+            "is-residential": null
+          }
+        },
+        {
+          "id": "id#company-id",
+          "type": "companies",
+          "attributes": {
+            "name": "Bob Dylan's Highway 61 Auto",
+            "website": "",
+            "is-selling-inventory": true
+          }
+        },
+        {
+          "id": "id#location-id",
+          "type": "locations",
+          "attributes": {
+            "street": "7920 Glenlake Avenue",
+            "suite": "",
+            "city": "Ankeny",
+            "state": "IA",
+            "zipcode": "50023",
+            "phone-number": "1234567890",
+            "nickname": "My main store",
+            "contact-name": "Bob Dylan",
+            "contact-phone-number": "1234567890",
+            "contact-email": "Bob@Dylan.biz",
+            "last-inventory-import-at": null,
+            "avalara-tax-location-code": null
+          },
+          "relationships": {
+            "company": {
+              "data": {
+                "type": "companies",
+                "id": "id#location.company-id"
+              }
+            }
+          }
+        },
+        {
+          "id": "id#included-order-id",
+          "type": "orders",
+          "attributes": {
+            "confirmation-number": "any#order-confirmation-number",
+            "created-at": "2017-09-05T06:27:48.729Z",
+            "updated-at": "2017-09-05T06:27:49.979Z",
+            "status-updated-at": "any#order-status-updated-at",
+            "status": "awaiting_shipment",
+            "is-open": true,
+            "total-in-cents": 12300,
+            "platform-fee-in-cents": 1200,
+            "has-open-returns": false,
+            "has-closed-returns": false,
+            "extended-status": "awaiting_shipment",
+            "retail-total-in-cents": 10000,
+            "retail-net-in-cents": 8800,
+            "shipping-total-in-cents": 2300,
+            "tax-total-in-cents": 0,
+            "supplier-net-in-cents": 11100,
+            "supplier-status": "pending",
+            "purchase-price-total-in-cents": 12300,
+            "additional-shipping-total-in-cents": 0,
+            "net-platform-fee-in-cents": 1200,
+            "refund-total-in-cents": 0
+          },
+          "relationships": {
+            "order-items": {
+              "data": [
+                {
+                  "type": "order-items",
+                  "id": "id#order.order-item-id"
+                }
+              ]
+            },
+            "shipping-address": {
+              "data": {
+                "type": "addresses",
+                "id": "id#order.shipping-address-id"
+              }
+            },
+            "location": {
+              "data": {
+                "type": "locations",
+                "id": "id#order.order-location-id"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
