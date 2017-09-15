@@ -18,16 +18,16 @@
           "status-updated-at": "2017-08-10T06:53:03.347Z",
           "status": "awaiting_shipment",
           "is-open": true,
-          "total-in-cents": 24000,
-          "platform-fee-in-cents": 2400,
-          "retail-total-in-cents": 20000,
-          "retail-net-in-cents": 17600,
-          "shipping-total-in-cents": 4000,
+          "total-in-cents": 12000,
+          "platform-fee-in-cents": 1200,
+          "retail-total-in-cents": 10000,
+          "retail-net-in-cents": 8800,
+          "shipping-total-in-cents": 2000,
           "tax-total-in-cents": 0,
-          "supplier-net-in-cents": 21600,
-          "purchase-price-total-in-cents": 23000,
-          "additional-shipping-total-in-cents": 1000,
-          "net-platform-fee-in-cents": 2400,
+          "supplier-net-in-cents": 10800,
+          "purchase-price-total-in-cents": 11500,
+          "additional-shipping-total-in-cents": 500,
+          "net-platform-fee-in-cents": 1200,
           "refund-total-in-cents": 0,
           "has-open-returns": false,
           "has-closed-returns": false,
@@ -54,10 +54,6 @@
               {
                 "type": "inventory-items",
                 "id": "4894"
-              },
-              {
-                "type": "inventory-items",
-                "id": "4895"
               }
             ]
           },
@@ -70,10 +66,6 @@
               {
                 "type": "order-items",
                 "id": "49"
-              },
-              {
-                "type": "order-items",
-                "id": "50"
               }
             ]
           },
@@ -212,27 +204,6 @@
           }
         },
         {
-          "id": "4968",
-          "type": "part-kinds",
-          "links": {
-            "self": "http://www.example.com/api/part-kinds/4968"
-          },
-          "attributes": {
-            "name": "Engine Assembly 148",
-            "hollander-part-type": "248",
-            "alternate-names": [
-              "Engine 148",
-              "Entire Engine 148",
-              "Whole Engine 148"
-            ],
-            "whats-included": null,
-            "whats-not-included": null,
-            "ara-definition": null,
-            "is-available-for-sale": true,
-            "youtube-id": null
-          }
-        },
-        {
           "id": "4939",
           "type": "parts",
           "links": {
@@ -276,54 +247,6 @@
               "links": {
                 "self": "http://www.example.com/api/parts/4939/relationships/part-images",
                 "related": "http://www.example.com/api/parts/4939/part-images"
-              }
-            }
-          }
-        },
-        {
-          "id": "4940",
-          "type": "parts",
-          "links": {
-            "self": "http://www.example.com/api/parts/4940"
-          },
-          "attributes": {
-            "hollander-interchange": "100-00148AL",
-            "interchange-number": "00148AL",
-            "name": "Engine Assembly 148"
-          },
-          "relationships": {
-            "diagrams": {
-              "links": {
-                "self": "http://www.example.com/api/parts/4940/relationships/diagrams",
-                "related": "http://www.example.com/api/parts/4940/diagrams"
-              }
-            },
-            "inventory-items": {
-              "links": {
-                "self": "http://www.example.com/api/parts/4940/relationships/inventory-items",
-                "related": "http://www.example.com/api/parts/4940/inventory-items"
-              }
-            },
-            "vehicles": {
-              "links": {
-                "self": "http://www.example.com/api/parts/4940/relationships/vehicles",
-                "related": "http://www.example.com/api/parts/4940/vehicles"
-              }
-            },
-            "part-kind": {
-              "links": {
-                "self": "http://www.example.com/api/parts/4940/relationships/part-kind",
-                "related": "http://www.example.com/api/parts/4940/part-kind"
-              },
-              "data": {
-                "type": "part-kinds",
-                "id": "4968"
-              }
-            },
-            "part-images": {
-              "links": {
-                "self": "http://www.example.com/api/parts/4940/relationships/part-images",
-                "related": "http://www.example.com/api/parts/4940/part-images"
               }
             }
           }
@@ -379,61 +302,6 @@
               "links": {
                 "self": "http://www.example.com/api/inventory-items/4894/relationships/inventory-item-images",
                 "related": "http://www.example.com/api/inventory-items/4894/inventory-item-images"
-              }
-            }
-          }
-        },
-        {
-          "id": "4895",
-          "type": "inventory-items",
-          "links": {
-            "self": "http://www.example.com/api/inventory-items/4895"
-          },
-          "attributes": {
-            "company-name": "Bob Dylan's Highway 61 Auto",
-            "price-in-cents": 10000,
-            "grade": "A",
-            "company-rating": null,
-            "is-available-for-purchase": null,
-            "is-commercial-shipping": true,
-            "is-listed": true,
-            "description": "INCLUDES MOUNTING HARDWARE",
-            "stock-number": "ABC123",
-            "stock-location": "R1",
-            "stock-date-added": "2017-08-10",
-            "is-available-for-search": null,
-            "intelligent-description": "",
-            "purchase-price-in-cents": 12300,
-            "intelligent-quality": "like_new",
-            "yms-unique-id": "7492860"
-          },
-          "relationships": {
-            "donor-car": {
-              "links": {
-                "self": "http://www.example.com/api/inventory-items/4895/relationships/donor-car",
-                "related": "http://www.example.com/api/inventory-items/4895/donor-car"
-              }
-            },
-            "part": {
-              "links": {
-                "self": "http://www.example.com/api/inventory-items/4895/relationships/part",
-                "related": "http://www.example.com/api/inventory-items/4895/part"
-              },
-              "data": {
-                "type": "parts",
-                "id": "4940"
-              }
-            },
-            "location": {
-              "links": {
-                "self": "http://www.example.com/api/inventory-items/4895/relationships/location",
-                "related": "http://www.example.com/api/inventory-items/4895/location"
-              }
-            },
-            "inventory-item-images": {
-              "links": {
-                "self": "http://www.example.com/api/inventory-items/4895/relationships/inventory-item-images",
-                "related": "http://www.example.com/api/inventory-items/4895/inventory-item-images"
               }
             }
           }
@@ -501,76 +369,6 @@
               "links": {
                 "self": "http://www.example.com/api/order-items/49/relationships/proof-of-condition-images",
                 "related": "http://www.example.com/api/order-items/49/proof-of-condition-images"
-              },
-              "data": [
-
-              ]
-            }
-          }
-        },
-        {
-          "id": "50",
-          "type": "order-items",
-          "links": {
-            "self": "http://www.example.com/api/order-items/50"
-          },
-          "attributes": {
-            "shipping-carrier": null,
-            "shipping-service-level": null,
-            "shipping-price-in-cents": 2000,
-            "shipping-method": "freight_residential",
-            "additional-shipping-price-in-cents": 500,
-            "included-shipping-price-in-cents": 1500,
-            "purchase-price-in-cents": 11500,
-            "can-be-returned": false,
-            "has-shipped": false,
-            "tax-in-cents": 0,
-            "search-vehicle-year": 2010,
-            "search-vehicle-make": "Ford",
-            "search-vehicle-model": "F-150",
-            "search-vehicle-application": "4.8L, VIN 123",
-            "total-price-in-cents": 12000,
-            "net-platform-fee-in-cents": 1200,
-            "refund-amount-in-cents": null,
-            "supplier-net-in-cents": 10800,
-            "retail-price-in-cents": 10000,
-            "retail-net-in-cents": 8800,
-            "supplier-status": "unfulfilled"
-          },
-          "relationships": {
-            "order": {
-              "links": {
-                "self": "http://www.example.com/api/order-items/50/relationships/order",
-                "related": "http://www.example.com/api/order-items/50/order"
-              }
-            },
-            "inventory-item": {
-              "links": {
-                "self": "http://www.example.com/api/order-items/50/relationships/inventory-item",
-                "related": "http://www.example.com/api/order-items/50/inventory-item"
-              },
-              "data": {
-                "type": "inventory-items",
-                "id": "4895"
-              }
-            },
-            "return": {
-              "links": {
-                "self": "http://www.example.com/api/order-items/50/relationships/return",
-                "related": "http://www.example.com/api/order-items/50/return"
-              },
-              "data": null
-            },
-            "shipment": {
-              "links": {
-                "self": "http://www.example.com/api/order-items/50/relationships/shipment",
-                "related": "http://www.example.com/api/order-items/50/shipment"
-              }
-            },
-            "proof-of-condition-images": {
-              "links": {
-                "self": "http://www.example.com/api/order-items/50/relationships/proof-of-condition-images",
-                "related": "http://www.example.com/api/order-items/50/proof-of-condition-images"
               },
               "data": [
 
