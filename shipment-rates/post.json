@@ -55,6 +55,8 @@
             "carrier": "UPS",
             "service-level": "Standard Shipping (3-5 Business Days)",
             "price-in-cents": 0,
+            "estimated-delivery-date": "2017-09-14",
+            "estimated-ship-date": "any#quote-0-ship-date",
             "inventory-item-id": "id#quote-0-inventory-item-id"
           }
         },
@@ -65,6 +67,8 @@
             "carrier": "UPS",
             "service-level": "Two-day Shipping",
             "price-in-cents": 3028,
+            "estimated-delivery-date": "2017-09-13",
+            "estimated-ship-date": "any#quote-1-ship-date",
             "inventory-item-id": "id#quote-1-inventory-item-id"
           }
         },
@@ -75,6 +79,8 @@
             "carrier": "UPS",
             "service-level": "Next-day Shipping",
             "price-in-cents": 8104,
+            "estimated-delivery-date": "2017-09-12",
+            "estimated-ship-date": "any#quote-2-ship-date",
             "inventory-item-id": "id#quote-2-inventory-item-id"
           }
         }
