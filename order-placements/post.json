@@ -6,7 +6,7 @@
           "shipping-address-id": "id#request-shipping-address-id",
           "billing-address-id": "id#request-billing-address-id",
           "credit-card-id": "id#request-credit-card-id",
-          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":12300,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\"}]",
+          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":12300,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\",\"estimated-ship-date\":\"2017-09-14\",\"estimated-delivery-date\":\"2017-09-22\"}]",
           "search-affiliate": null
         },
         "type": "order-placements"
@@ -23,7 +23,7 @@
           "credit-card-id": "id#response-credit-card-id",
           "billing-address-id": "id#response-billing-address-id",
           "shipping-address-id": "id#response-shipping-address-id",
-          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":12300,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\"}]",
+          "ordered-items": "[{\"id\":\"1\",\"carrier\":\"UPS\",\"service-level\":\"Standard Shipping (3-5 Business Days)\",\"price-in-cents\":0,\"purchase-price-in-cents\":12300,\"search-vehicle-make\":\"Ford\",\"search-vehicle-model\":\"F-150\",\"search-vehicle-year\":\"2010\",\"search-vehicle-application\":\"4.6L, 2V (VIN W, 8th Digit), 6-1/2\\\" from 5/74\",\"estimated-ship-date\":\"2017-09-14\",\"estimated-delivery-date\":\"2017-09-22\"}]",
           "referrer": null,
           "retail-total-in-cents": 10000,
           "search-affiliate": null
@@ -103,7 +103,9 @@
             "supplier-net-in-cents": 11100,
             "retail-price-in-cents": 10000,
             "retail-net-in-cents": 8800,
-            "supplier-status": "unfulfilled"
+            "supplier-status": "unfulfilled",
+            "estimated-ship-date": "2017-09-14",
+            "estimated-delivery-date": "2017-09-22"
           },
           "relationships": {
             "inventory-item": {
