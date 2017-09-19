@@ -333,7 +333,9 @@
             "supplier-net-in-cents": 10800,
             "retail-price-in-cents": 10000,
             "retail-net-in-cents": 8800,
-            "supplier-status": "unfulfilled"
+            "supplier-status": "unfulfilled",
+            "estimated-ship-date": "2017-09-14",
+            "estimated-delivery-date": "2017-09-22"
           },
           "relationships": {
             "order": {
