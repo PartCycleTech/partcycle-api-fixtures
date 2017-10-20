@@ -25,7 +25,8 @@
              "intelligent-description": "This part is in like-new condition. It looks new and functions the same as a new part.",
              "purchase-price-in-cents": 12300,
              "intelligent-quality": "like_new",
-             "yms-unique-id": null
+             "yms-unique-id": null,
+             "unique-attribute-hash": "any#unique-attribute-hash"
           },
           "relationships": {
             "location": {
