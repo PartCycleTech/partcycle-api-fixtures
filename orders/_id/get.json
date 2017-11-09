@@ -315,7 +315,7 @@
           },
           "attributes": {
             "shipping-carrier": null,
-            "shipping-service-level": null,
+            "shipping-service-level": "Standard Freight",
             "shipping-price-in-cents": 2000,
             "shipping-method": "freight_residential",
             "additional-shipping-price-in-cents": 500,
