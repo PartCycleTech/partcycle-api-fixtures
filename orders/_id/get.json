@@ -189,8 +189,8 @@
             "self": "http://www.example.com/api/part-kinds/4967"
           },
           "attributes": {
-            "name": "Engine Assembly 144",
-            "hollander-part-type": "244",
+            "name": "Engine Assembly 144 :)",
+            "hollander-part-type": "LOL",
             "alternate-names": [
               "Engine 144",
               "Entire Engine 144",
@@ -210,9 +210,9 @@
             "self": "http://www.example.com/api/parts/4939"
           },
           "attributes": {
-            "hollander-interchange": "100-00144AL",
-            "interchange-number": "00144AL",
-            "name": "Engine Assembly 144"
+            "hollander-interchange": "100-00144AL :)",
+            "interchange-number": "00144AL :)",
+            "name": "Engine Assembly 144 :)"
           },
           "relationships": {
             "diagrams": {
@@ -273,7 +273,7 @@
             "intelligent-description": "",
             "purchase-price-in-cents": 12300,
             "intelligent-quality": "like_new",
-            "yms-unique-id": "7492859",
+            "yms-unique-id": "7492859 :)",
             "unique-attribute-hash": "any#unique-attribute-hash"
           },
           "relationships": {
