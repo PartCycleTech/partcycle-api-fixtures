@@ -1,0 +1,71 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "to-zip": "37210",
+          "items": [
+            {
+              "inventory-item-id": "id#inventory-item-id",
+              "additional-shipping-price-in-cents": 1200
+            }
+          ]
+        },
+        "type": "sales-tax-rates"
+      }
+    }
+  },
+  "response": {
+    "status": "202",
+    "body": {
+      "data": {
+        "id": "999e8d44-7ebe-49f0-b270-4291eb1f305c",
+        "type": "sales-tax-rates",
+        "attributes": {
+          "to-zip": "37210",
+          "items": [
+            {
+              "inventory_item_id": 1000,
+              "additional_shipping_price_in_cents": 1200
+            }
+          ]
+        },
+        "relationships": {
+          "sales-tax-rate-estimates": {
+            "links": {
+              "self": "http://www.example.com/api/sales-tax-rates/999e8d44-7ebe-49f0-b270-4291eb1f305c/relationships/sales-tax-rate-estimates",
+              "related": "http://www.example.com/api/sales-tax-rates/999e8d44-7ebe-49f0-b270-4291eb1f305c/sales-tax-rate-estimates"
+            },
+            "data": [
+              {
+                "type": "sales-tax-rate-estimates",
+                "id": "fd56fb80-9657-48b3-9fe2-b1f0b070258a"
+              }
+            ]
+          }
+        }
+      },
+      "included": [
+        {
+          "id": "fd56fb80-9657-48b3-9fe2-b1f0b070258a",
+          "type": "sales-tax-rate-estimates",
+          "links": {
+            "self": "http://www.example.com/api/sales-tax-rate-estimates/fd56fb80-9657-48b3-9fe2-b1f0b070258a"
+          },
+          "attributes": {
+            "inventory-item-id": 1000,
+            "tax-in-cents": 1249
+          },
+          "relationships": {
+            "sales-tax-rate": {
+              "links": {
+                "self": "http://www.example.com/api/sales-tax-rate-estimates/fd56fb80-9657-48b3-9fe2-b1f0b070258a/relationships/sales-tax-rate",
+                "related": "http://www.example.com/api/sales-tax-rate-estimates/fd56fb80-9657-48b3-9fe2-b1f0b070258a/sales-tax-rate"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
