@@ -4,6 +4,7 @@
       "data": {
         "attributes": {
           "to-zip": "37210",
+          "to-state": "TN",
           "items": [
             {
               "inventory-item-id": "id#inventory-item-id",
@@ -23,6 +24,7 @@
         "type": "sales-tax-rates",
         "attributes": {
           "to-zip": "37210",
+          "to-state": "TN",
           "items": [
             {
               "inventory_item_id": 1000,
