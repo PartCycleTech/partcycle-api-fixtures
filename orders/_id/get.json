@@ -452,8 +452,7 @@
             "contact-name": "Bob Dylan",
             "contact-phone-number": "1234567890",
             "contact-email": "Bob@Dylan.biz",
-            "last-inventory-import-at": null,
-            "avalara-tax-location-code": null
+            "last-inventory-import-at": null
           },
           "relationships": {
             "inventory-items": {
