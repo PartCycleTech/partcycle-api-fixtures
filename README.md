@@ -81,6 +81,8 @@ To specify a flex param, use the format: `type#identifier`
 Currently supported flex params:
 - `id` | any non-empty string
   - e.g. `id#my-order-id`
+- `number` | any valid number
+  - e.g. `number#my-number`
 - `any` | any value, even empty string (no restrictions)
   - e.g. `any#my-ignored-value`
 
