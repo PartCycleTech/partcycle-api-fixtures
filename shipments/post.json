@@ -7,8 +7,7 @@
           "carrier": "ups",
           "notes": "This is a comment for the buyer",
           "private-notes": "This is a comment for the seller",
-          "tracking-number": "123456",
-          "work-order-number": ""
+          "tracking-number": "123456"
         },
         "relationships": {
           "order": {
@@ -45,7 +44,6 @@
           "notes": "Notes",
           "created-at": "2017-08-17T17:33:19.547Z",
           "computed-tracking-page-url": "",
-          "work-order-number": null,
           "actual-shipping-cost-in-cents": null,
           "private-notes": null
         },
