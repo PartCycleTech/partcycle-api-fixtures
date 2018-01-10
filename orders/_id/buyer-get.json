@@ -1,0 +1,433 @@
+{
+  "request": {
+    "body": null
+  },
+  "response": {
+    "status": "200",
+    "body": {
+      "data": {
+        "attributes": {
+          "additional-shipping-total-in-cents": 6804,
+          "confirmation-number": "1515531540706",
+          "created-at": "2018-01-09T20:59:00.705Z",
+          "extended-status": "awaiting_shipment",
+          "has-closed-returns": false,
+          "has-open-returns": false,
+          "is-open": true,
+          "net-platform-fee-in-cents": 10014,
+          "platform-fee-in-cents": 10014,
+          "purchase-price-total-in-cents": 83453,
+          "refund-total-in-cents": 0,
+          "retail-net-in-cents": 73439,
+          "retail-total-in-cents": 83453,
+          "shipping-total-in-cents": 6804,
+          "status": "awaiting_shipment",
+          "status-updated-at": "2018-01-09T20:59:00.713Z",
+          "supplier-net-in-cents": 80243,
+          "supplier-status": "pending",
+          "tax-total-in-cents": 0,
+          "total-in-cents": 90257,
+          "updated-at": "2018-01-09T20:59:02.058Z"
+        },
+        "id": "32",
+        "links": {
+          "self": "http://localhost:3000/api/orders/32"
+        },
+        "relationships": {
+          "billing-address": {
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/billing-address",
+              "self": "http://localhost:3000/api/orders/32/relationships/billing-address"
+            }
+          },
+          "conversations": {
+            "data": [],
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/conversations",
+              "self": "http://localhost:3000/api/orders/32/relationships/conversations"
+            }
+          },
+          "credit-card": {
+            "data": {
+              "id": "1",
+              "type": "credit-cards"
+            },
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/credit-card",
+              "self": "http://localhost:3000/api/orders/32/relationships/credit-card"
+            }
+          },
+          "inventory-items": {
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/inventory-items",
+              "self": "http://localhost:3000/api/orders/32/relationships/inventory-items"
+            }
+          },
+          "location": {
+            "data": {
+              "id": "1",
+              "type": "locations"
+            },
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/location",
+              "self": "http://localhost:3000/api/orders/32/relationships/location"
+            }
+          },
+          "order-cancellation": {
+            "data": null,
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/order-cancellation",
+              "self": "http://localhost:3000/api/orders/32/relationships/order-cancellation"
+            }
+          },
+          "order-events": {
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/order-events",
+              "self": "http://localhost:3000/api/orders/32/relationships/order-events"
+            }
+          },
+          "order-items": {
+            "data": [
+              {
+                "id": "32",
+                "type": "order-items"
+              }
+            ],
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/order-items",
+              "self": "http://localhost:3000/api/orders/32/relationships/order-items"
+            }
+          },
+          "order-notes": {
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/order-notes",
+              "self": "http://localhost:3000/api/orders/32/relationships/order-notes"
+            }
+          },
+          "returns": {
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/returns",
+              "self": "http://localhost:3000/api/orders/32/relationships/returns"
+            }
+          },
+          "shipments": {
+            "data": [],
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/shipments",
+              "self": "http://localhost:3000/api/orders/32/relationships/shipments"
+            }
+          },
+          "shipping-address": {
+            "data": {
+              "id": "4",
+              "type": "addresses"
+            },
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/shipping-address",
+              "self": "http://localhost:3000/api/orders/32/relationships/shipping-address"
+            }
+          },
+          "supplier-order-record": {
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/supplier-order-record",
+              "self": "http://localhost:3000/api/orders/32/relationships/supplier-order-record"
+            }
+          },
+          "user": {
+            "links": {
+              "related": "http://localhost:3000/api/orders/32/user",
+              "self": "http://localhost:3000/api/orders/32/relationships/user"
+            }
+          }
+        },
+        "type": "orders"
+      },
+      "included": [
+        {
+          "attributes": {
+            "company": "Visa",
+            "expiration-month": "01",
+            "expiration-year": "2020",
+            "last-four-digits": "4242",
+            "name": "John Doe"
+          },
+          "id": "1",
+          "links": {
+            "self": "http://localhost:3000/api/credit-cards/1"
+          },
+          "type": "credit-cards"
+        },
+        {
+          "attributes": {
+            "alternate-names": [],
+            "ara-definition": "Mech.",
+            "hollander-part-type": "601",
+            "is-available-for-sale": true,
+            "name": "Alternator",
+            "whats-included": "Integral pulleys & brackets, wiring to first disconnect",
+            "whats-not-included": "External Voltage Regulators",
+            "youtube-id": null
+          },
+          "id": "306",
+          "links": {
+            "self": "http://localhost:3000/api/part-kinds/306"
+          },
+          "type": "part-kinds"
+        },
+        {
+          "attributes": {
+            "hollander-interchange": "601-00005",
+            "interchange-number": "00005",
+            "name": "Alternator"
+          },
+          "id": "5",
+          "links": {
+            "self": "http://localhost:3000/api/parts/5"
+          },
+          "relationships": {
+            "diagrams": {
+              "links": {
+                "related": "http://localhost:3000/api/parts/5/diagrams",
+                "self": "http://localhost:3000/api/parts/5/relationships/diagrams"
+              }
+            },
+            "inventory-items": {
+              "links": {
+                "related": "http://localhost:3000/api/parts/5/inventory-items",
+                "self": "http://localhost:3000/api/parts/5/relationships/inventory-items"
+              }
+            },
+            "part-images": {
+              "links": {
+                "related": "http://localhost:3000/api/parts/5/part-images",
+                "self": "http://localhost:3000/api/parts/5/relationships/part-images"
+              }
+            },
+            "part-kind": {
+              "data": {
+                "id": "306",
+                "type": "part-kinds"
+              },
+              "links": {
+                "related": "http://localhost:3000/api/parts/5/part-kind",
+                "self": "http://localhost:3000/api/parts/5/relationships/part-kind"
+              }
+            },
+            "vehicles": {
+              "links": {
+                "related": "http://localhost:3000/api/parts/5/vehicles",
+                "self": "http://localhost:3000/api/parts/5/relationships/vehicles"
+              }
+            }
+          },
+          "type": "parts"
+        },
+        {
+          "attributes": {
+            "company-name": "Darth's Local Parts",
+            "company-rating": null,
+            "description": "17X7.5, ALUM, 5 SPOKE, SCRATCHED [560-03781]",
+            "grade": "C",
+            "intelligent-description": "This part is in like-new condition. It looks new and functions the same as a new part.",
+            "intelligent-quality": "very_good",
+            "is-available-for-purchase": false,
+            "is-available-for-search": false,
+            "is-commercial-shipping": false,
+            "is-listed": true,
+            "price-in-cents": 83453,
+            "purchase-price-in-cents": 83453,
+            "stock-date-added": "2017-11-27",
+            "stock-location": "R10",
+            "stock-number": "1N10",
+            "unique-attribute-hash": "b2ec305a6602a4bd9f0bff01560a4cbfbaafc468",
+            "yms-unique-id": null
+          },
+          "id": "7",
+          "links": {
+            "self": "http://localhost:3000/api/inventory-items/7"
+          },
+          "meta": {
+            "distance": {
+              "magnitude": null,
+              "units": "mi"
+            }
+          },
+          "relationships": {
+            "donor-car": {
+              "links": {
+                "related": "http://localhost:3000/api/inventory-items/7/donor-car",
+                "self": "http://localhost:3000/api/inventory-items/7/relationships/donor-car"
+              }
+            },
+            "inventory-item-images": {
+              "links": {
+                "related": "http://localhost:3000/api/inventory-items/7/inventory-item-images",
+                "self": "http://localhost:3000/api/inventory-items/7/relationships/inventory-item-images"
+              }
+            },
+            "location": {
+              "links": {
+                "related": "http://localhost:3000/api/inventory-items/7/location",
+                "self": "http://localhost:3000/api/inventory-items/7/relationships/location"
+              }
+            },
+            "part": {
+              "data": {
+                "id": "5",
+                "type": "parts"
+              },
+              "links": {
+                "related": "http://localhost:3000/api/inventory-items/7/part",
+                "self": "http://localhost:3000/api/inventory-items/7/relationships/part"
+              }
+            }
+          },
+          "type": "inventory-items"
+        },
+        {
+          "attributes": {
+            "additional-shipping-price-in-cents": 6804,
+            "can-be-returned": false,
+            "estimated-delivery-date": "2018-01-16",
+            "estimated-ship-date": "2018-01-12",
+            "has-shipped": false,
+            "included-shipping-price-in-cents": 0,
+            "net-platform-fee-in-cents": 10014,
+            "purchase-price-in-cents": 83453,
+            "refund-amount-in-cents": null,
+            "retail-net-in-cents": 73439,
+            "retail-price-in-cents": 83453,
+            "search-vehicle-application": "With Engine, 1.0 L",
+            "search-vehicle-make": "Hyundai",
+            "search-vehicle-model": "Elantra",
+            "search-vehicle-year": 2010,
+            "shipping-carrier": "UPS",
+            "shipping-method": "parcel",
+            "shipping-price-in-cents": 6804,
+            "shipping-service-level": "Two-day Shipping",
+            "supplier-net-in-cents": 80243,
+            "supplier-status": "unfulfilled",
+            "tax-in-cents": 0,
+            "total-price-in-cents": 90257
+          },
+          "id": "32",
+          "links": {
+            "self": "http://localhost:3000/api/order-items/32"
+          },
+          "relationships": {
+            "inventory-item": {
+              "data": {
+                "id": "7",
+                "type": "inventory-items"
+              },
+              "links": {
+                "related": "http://localhost:3000/api/order-items/32/inventory-item",
+                "self": "http://localhost:3000/api/order-items/32/relationships/inventory-item"
+              }
+            },
+            "order": {
+              "links": {
+                "related": "http://localhost:3000/api/order-items/32/order",
+                "self": "http://localhost:3000/api/order-items/32/relationships/order"
+              }
+            },
+            "proof-of-condition-images": {
+              "links": {
+                "related": "http://localhost:3000/api/order-items/32/proof-of-condition-images",
+                "self": "http://localhost:3000/api/order-items/32/relationships/proof-of-condition-images"
+              }
+            },
+            "return": {
+              "data": null,
+              "links": {
+                "related": "http://localhost:3000/api/order-items/32/return",
+                "self": "http://localhost:3000/api/order-items/32/relationships/return"
+              }
+            },
+            "shipment": {
+              "links": {
+                "related": "http://localhost:3000/api/order-items/32/shipment",
+                "self": "http://localhost:3000/api/order-items/32/relationships/shipment"
+              }
+            }
+          },
+          "type": "order-items"
+        },
+        {
+          "attributes": {
+            "city": "Livingston",
+            "is-residential": null,
+            "name": "Amos Diggory",
+            "phone-number": "1234567890",
+            "state": "NJ",
+            "street": "13 Garden St.",
+            "suite": "",
+            "zipcode": "07039"
+          },
+          "id": "4",
+          "links": {
+            "self": "http://localhost:3000/api/addresses/4"
+          },
+          "type": "addresses"
+        },
+        {
+          "attributes": {
+            "is-selling-inventory": true,
+            "name": "Darth's Local Parts",
+            "website": "http://darth-Local-parts.com"
+          },
+          "id": "1",
+          "links": {
+            "self": "http://localhost:3000/api/companies/1"
+          },
+          "type": "companies"
+        },
+        {
+          "attributes": {
+            "city": "New Port Richey",
+            "contact-email": "todd@partcycle.com",
+            "contact-name": "Todd",
+            "contact-phone-number": "5555555555",
+            "last-inventory-import-at": null,
+            "nickname": "AutoYard-0",
+            "phone-number": "1970961976",
+            "state": "FL",
+            "street": "85 Bay Drive",
+            "suite": "Apt 3",
+            "zipcode": "34653"
+          },
+          "id": "1",
+          "links": {
+            "self": "http://localhost:3000/api/locations/1"
+          },
+          "relationships": {
+            "bank-account": {
+              "links": {
+                "related": "http://localhost:3000/api/locations/1/bank-account",
+                "self": "http://localhost:3000/api/locations/1/relationships/bank-account"
+              }
+            },
+            "company": {
+              "data": {
+                "id": "1",
+                "type": "companies"
+              },
+              "links": {
+                "related": "http://localhost:3000/api/locations/1/company",
+                "self": "http://localhost:3000/api/locations/1/relationships/company"
+              }
+            },
+            "inventory-items": {
+              "links": {
+                "related": "http://localhost:3000/api/locations/1/inventory-items",
+                "self": "http://localhost:3000/api/locations/1/relationships/inventory-items"
+              }
+            }
+          },
+          "type": "locations"
+        }
+      ]
+    }
+  }
+}
+
