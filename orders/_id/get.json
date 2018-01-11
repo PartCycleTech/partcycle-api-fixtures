@@ -31,7 +31,6 @@
           "refund-total-in-cents": 0,
           "has-open-returns": false,
           "has-closed-returns": false,
-          "extended-status": "awaiting_shipment",
           "buyer-status": "awaiting_shipment",
           "supplier-status": "pending"
         },

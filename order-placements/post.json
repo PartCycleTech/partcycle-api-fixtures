@@ -179,7 +179,6 @@
             "platform-fee-in-cents": 1200,
             "has-open-returns": false,
             "has-closed-returns": false,
-            "extended-status": "awaiting_shipment",
             "buyer-status": "awaiting_shipment",
             "retail-total-in-cents": 10000,
             "retail-net-in-cents": 8800,
