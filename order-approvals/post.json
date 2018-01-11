@@ -1,0 +1,24 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "order-id": "id#order-id"
+        },
+        "type": "order-approvals"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "169",
+        "type": "order-approvals",
+        "attributes": {
+          "order-id": "id#order-id"
+        }
+      }
+    }
+  }
+}
