@@ -6,428 +6,468 @@
     "status": "200",
     "body": {
       "data": {
-        "attributes": {
-          "additional-shipping-total-in-cents": 6804,
-          "confirmation-number": "1515531540706",
-          "created-at": "2018-01-09T20:59:00.705Z",
-          "extended-status": "awaiting_shipment",
-          "has-closed-returns": false,
-          "has-open-returns": false,
-          "is-open": true,
-          "net-platform-fee-in-cents": 10014,
-          "platform-fee-in-cents": 10014,
-          "purchase-price-total-in-cents": 83453,
-          "refund-total-in-cents": 0,
-          "retail-net-in-cents": 73439,
-          "retail-total-in-cents": 83453,
-          "shipping-total-in-cents": 6804,
-          "status": "awaiting_shipment",
-          "status-updated-at": "2018-01-09T20:59:00.713Z",
-          "supplier-net-in-cents": 80243,
-          "supplier-status": "pending",
-          "tax-total-in-cents": 0,
-          "total-in-cents": 90257,
-          "updated-at": "2018-01-09T20:59:02.058Z"
-        },
-        "id": "32",
+        "id": "3880",
+        "type": "orders",
         "links": {
-          "self": "http://localhost:3000/api/orders/32"
+          "self": "http://www.example.com/api/orders/3880"
+        },
+        "attributes": {
+          "confirmation-number": "1502342187707",
+          "created-at": "2018-01-23T20:49:43.535Z",
+          "updated-at": "2018-01-23T20:49:43.556Z",
+          "status-updated-at": "2017-08-10T06:53:03.347Z",
+          "status": "awaiting_shipment",
+          "is-open": true,
+          "total-in-cents": 12500,
+          "platform-fee-in-cents": 1200,
+          "has-open-returns": false,
+          "has-closed-returns": false,
+          "buyer-status": "awaiting_shipment",
+          "retail-total-in-cents": 10000,
+          "retail-net-in-cents": 8800,
+          "shipping-total-in-cents": 2000,
+          "tax-total-in-cents": 500,
+          "supplier-net-in-cents": 11300,
+          "supplier-status": "pending",
+          "purchase-price-total-in-cents": 11500,
+          "additional-shipping-total-in-cents": 500,
+          "net-platform-fee-in-cents": 1200,
+          "refund-total-in-cents": 0
         },
         "relationships": {
-          "billing-address": {
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/billing-address",
-              "self": "http://localhost:3000/api/orders/32/relationships/billing-address"
-            }
-          },
-          "conversations": {
-            "data": [],
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/conversations",
-              "self": "http://localhost:3000/api/orders/32/relationships/conversations"
-            }
-          },
           "credit-card": {
-            "data": {
-              "id": "1",
-              "type": "credit-cards"
-            },
             "links": {
-              "related": "http://localhost:3000/api/orders/32/credit-card",
-              "self": "http://localhost:3000/api/orders/32/relationships/credit-card"
+              "self": "http://www.example.com/api/orders/3880/relationships/credit-card",
+              "related": "http://www.example.com/api/orders/3880/credit-card"
+            },
+            "data": {
+              "type": "credit-cards",
+              "id": "7619"
             }
           },
           "inventory-items": {
             "links": {
-              "related": "http://localhost:3000/api/orders/32/inventory-items",
-              "self": "http://localhost:3000/api/orders/32/relationships/inventory-items"
-            }
-          },
-          "location": {
-            "data": {
-              "id": "1",
-              "type": "locations"
-            },
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/location",
-              "self": "http://localhost:3000/api/orders/32/relationships/location"
-            }
-          },
-          "order-cancellation": {
-            "data": null,
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/order-cancellation",
-              "self": "http://localhost:3000/api/orders/32/relationships/order-cancellation"
-            }
-          },
-          "order-events": {
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/order-events",
-              "self": "http://localhost:3000/api/orders/32/relationships/order-events"
+              "self": "http://www.example.com/api/orders/3880/relationships/inventory-items",
+              "related": "http://www.example.com/api/orders/3880/inventory-items"
             }
           },
           "order-items": {
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/order-items",
+              "related": "http://www.example.com/api/orders/3880/order-items"
+            },
             "data": [
               {
-                "id": "32",
-                "type": "order-items"
+                "type": "order-items",
+                "id": "49"
               }
-            ],
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/order-items",
-              "self": "http://localhost:3000/api/orders/32/relationships/order-items"
-            }
+            ]
           },
-          "order-notes": {
+          "billing-address": {
             "links": {
-              "related": "http://localhost:3000/api/orders/32/order-notes",
-              "self": "http://localhost:3000/api/orders/32/relationships/order-notes"
-            }
-          },
-          "returns": {
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/returns",
-              "self": "http://localhost:3000/api/orders/32/relationships/returns"
-            }
-          },
-          "shipments": {
-            "data": [],
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/shipments",
-              "self": "http://localhost:3000/api/orders/32/relationships/shipments"
+              "self": "http://www.example.com/api/orders/3880/relationships/billing-address",
+              "related": "http://www.example.com/api/orders/3880/billing-address"
             }
           },
           "shipping-address": {
-            "data": {
-              "id": "4",
-              "type": "addresses"
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/shipping-address",
+              "related": "http://www.example.com/api/orders/3880/shipping-address"
             },
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/shipping-address",
-              "self": "http://localhost:3000/api/orders/32/relationships/shipping-address"
-            }
-          },
-          "supplier-order-record": {
-            "links": {
-              "related": "http://localhost:3000/api/orders/32/supplier-order-record",
-              "self": "http://localhost:3000/api/orders/32/relationships/supplier-order-record"
+            "data": {
+              "type": "addresses",
+              "id": "34880"
             }
           },
           "user": {
             "links": {
-              "related": "http://localhost:3000/api/orders/32/user",
-              "self": "http://localhost:3000/api/orders/32/relationships/user"
+              "self": "http://www.example.com/api/orders/3880/relationships/user",
+              "related": "http://www.example.com/api/orders/3880/user"
+            }
+          },
+          "shipments": {
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/shipments",
+              "related": "http://www.example.com/api/orders/3880/shipments"
+            },
+            "data": []
+          },
+          "location": {
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/location",
+              "related": "http://www.example.com/api/orders/3880/location"
+            },
+            "data": {
+              "type": "locations",
+              "id": "10136"
+            }
+          },
+          "returns": {
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/returns",
+              "related": "http://www.example.com/api/orders/3880/returns"
+            }
+          },
+          "order-cancellation": {
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/order-cancellation",
+              "related": "http://www.example.com/api/orders/3880/order-cancellation"
+            },
+            "data": null
+          },
+          "order-notes": {
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/order-notes",
+              "related": "http://www.example.com/api/orders/3880/order-notes"
+            }
+          },
+          "order-events": {
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/order-events",
+              "related": "http://www.example.com/api/orders/3880/order-events"
+            }
+          },
+          "conversations": {
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/conversations",
+              "related": "http://www.example.com/api/orders/3880/conversations"
+            },
+            "data": [
+              {
+                "type": "conversations",
+                "id": "31"
+              }
+            ]
+          },
+          "supplier-order-record": {
+            "links": {
+              "self": "http://www.example.com/api/orders/3880/relationships/supplier-order-record",
+              "related": "http://www.example.com/api/orders/3880/supplier-order-record"
             }
           }
-        },
-        "type": "orders"
+        }
       },
       "included": [
         {
+          "id": "7619",
+          "type": "credit-cards",
+          "links": {
+            "self": "http://www.example.com/api/credit-cards/7619"
+          },
           "attributes": {
-            "company": "Visa",
-            "expiration-month": "01",
-            "expiration-year": "2020",
             "last-four-digits": "4242",
-            "name": "John Doe"
-          },
-          "id": "1",
-          "links": {
-            "self": "http://localhost:3000/api/credit-cards/1"
-          },
-          "type": "credit-cards"
+            "name": "John Doe",
+            "expiration-year": "2020",
+            "expiration-month": "01",
+            "company": "Visa"
+          }
         },
         {
+          "id": "11896",
+          "type": "part-kinds",
+          "links": {
+            "self": "http://www.example.com/api/part-kinds/11896"
+          },
           "attributes": {
-            "alternate-names": [],
-            "ara-definition": "Mech.",
-            "hollander-part-type": "601",
+            "name": "Engine Assembly 144 :)",
+            "hollander-part-type": "LOL",
+            "alternate-names": [
+              "Engine 144",
+              "Entire Engine 144",
+              "Whole Engine 144"
+            ],
+            "whats-included": null,
+            "whats-not-included": null,
+            "ara-definition": null,
             "is-available-for-sale": true,
-            "name": "Alternator",
-            "whats-included": "Integral pulleys & brackets, wiring to first disconnect",
-            "whats-not-included": "External Voltage Regulators",
             "youtube-id": null
-          },
-          "id": "306",
-          "links": {
-            "self": "http://localhost:3000/api/part-kinds/306"
-          },
-          "type": "part-kinds"
+          }
         },
         {
-          "attributes": {
-            "hollander-interchange": "601-00005",
-            "interchange-number": "00005",
-            "name": "Alternator"
-          },
-          "id": "5",
+          "id": "11889",
+          "type": "parts",
           "links": {
-            "self": "http://localhost:3000/api/parts/5"
+            "self": "http://www.example.com/api/parts/11889"
+          },
+          "attributes": {
+            "hollander-interchange": "100-00144AL :)",
+            "interchange-number": "00144AL :)",
+            "name": "Engine Assembly 144 :)"
           },
           "relationships": {
             "diagrams": {
               "links": {
-                "related": "http://localhost:3000/api/parts/5/diagrams",
-                "self": "http://localhost:3000/api/parts/5/relationships/diagrams"
+                "self": "http://www.example.com/api/parts/11889/relationships/diagrams",
+                "related": "http://www.example.com/api/parts/11889/diagrams"
               }
             },
             "inventory-items": {
               "links": {
-                "related": "http://localhost:3000/api/parts/5/inventory-items",
-                "self": "http://localhost:3000/api/parts/5/relationships/inventory-items"
-              }
-            },
-            "part-images": {
-              "links": {
-                "related": "http://localhost:3000/api/parts/5/part-images",
-                "self": "http://localhost:3000/api/parts/5/relationships/part-images"
-              }
-            },
-            "part-kind": {
-              "data": {
-                "id": "306",
-                "type": "part-kinds"
-              },
-              "links": {
-                "related": "http://localhost:3000/api/parts/5/part-kind",
-                "self": "http://localhost:3000/api/parts/5/relationships/part-kind"
+                "self": "http://www.example.com/api/parts/11889/relationships/inventory-items",
+                "related": "http://www.example.com/api/parts/11889/inventory-items"
               }
             },
             "vehicles": {
               "links": {
-                "related": "http://localhost:3000/api/parts/5/vehicles",
-                "self": "http://localhost:3000/api/parts/5/relationships/vehicles"
+                "self": "http://www.example.com/api/parts/11889/relationships/vehicles",
+                "related": "http://www.example.com/api/parts/11889/vehicles"
+              }
+            },
+            "part-kind": {
+              "links": {
+                "self": "http://www.example.com/api/parts/11889/relationships/part-kind",
+                "related": "http://www.example.com/api/parts/11889/part-kind"
+              },
+              "data": {
+                "type": "part-kinds",
+                "id": "11896"
+              }
+            },
+            "part-images": {
+              "links": {
+                "self": "http://www.example.com/api/parts/11889/relationships/part-images",
+                "related": "http://www.example.com/api/parts/11889/part-images"
               }
             }
-          },
-          "type": "parts"
+          }
         },
         {
+          "id": "11402",
+          "type": "inventory-items",
+          "links": {
+            "self": "http://www.example.com/api/inventory-items/11402"
+          },
           "attributes": {
-            "company-name": "Darth's Local Parts",
+            "company-name": "Bob Dylan's Highway 61 Auto",
+            "price-in-cents": 10000,
+            "grade": "A",
             "company-rating": null,
-            "description": "17X7.5, ALUM, 5 SPOKE, SCRATCHED [560-03781]",
-            "grade": "C",
-            "intelligent-description": "This part is in like-new condition. It looks new and functions the same as a new part.",
-            "intelligent-quality": "very_good",
-            "is-available-for-purchase": false,
-            "is-available-for-search": false,
+            "is-available-for-purchase": null,
             "is-commercial-shipping": false,
             "is-listed": true,
-            "price-in-cents": 83453,
-            "purchase-price-in-cents": 83453,
-            "stock-date-added": "2017-11-27",
-            "stock-location": "R10",
-            "stock-number": "1N10",
-            "unique-attribute-hash": "b2ec305a6602a4bd9f0bff01560a4cbfbaafc468",
-            "yms-unique-id": null
-          },
-          "id": "7",
-          "links": {
-            "self": "http://localhost:3000/api/inventory-items/7"
-          },
-          "meta": {
-            "distance": {
-              "magnitude": null,
-              "units": "mi"
-            }
+            "description": "INCLUDES MOUNTING HARDWARE",
+            "stock-number": "ABC123",
+            "stock-location": "R1",
+            "stock-date-added": "2017-08-10",
+            "is-available-for-search": null,
+            "intelligent-description": "",
+            "purchase-price-in-cents": 12300,
+            "intelligent-quality": "like_new",
+            "yms-unique-id": "7492859 :)",
+            "unique-attribute-hash": "any#unique-attribute-hash"
           },
           "relationships": {
             "donor-car": {
               "links": {
-                "related": "http://localhost:3000/api/inventory-items/7/donor-car",
-                "self": "http://localhost:3000/api/inventory-items/7/relationships/donor-car"
+                "self": "http://www.example.com/api/inventory-items/11402/relationships/donor-car",
+                "related": "http://www.example.com/api/inventory-items/11402/donor-car"
               }
             },
-            "inventory-item-images": {
+            "part": {
               "links": {
-                "related": "http://localhost:3000/api/inventory-items/7/inventory-item-images",
-                "self": "http://localhost:3000/api/inventory-items/7/relationships/inventory-item-images"
+                "self": "http://www.example.com/api/inventory-items/11402/relationships/part",
+                "related": "http://www.example.com/api/inventory-items/11402/part"
+              },
+              "data": {
+                "type": "parts",
+                "id": "11889"
               }
             },
             "location": {
               "links": {
-                "related": "http://localhost:3000/api/inventory-items/7/location",
-                "self": "http://localhost:3000/api/inventory-items/7/relationships/location"
+                "self": "http://www.example.com/api/inventory-items/11402/relationships/location",
+                "related": "http://www.example.com/api/inventory-items/11402/location"
               }
             },
-            "part": {
-              "data": {
-                "id": "5",
-                "type": "parts"
-              },
+            "inventory-item-images": {
               "links": {
-                "related": "http://localhost:3000/api/inventory-items/7/part",
-                "self": "http://localhost:3000/api/inventory-items/7/relationships/part"
+                "self": "http://www.example.com/api/inventory-items/11402/relationships/inventory-item-images",
+                "related": "http://www.example.com/api/inventory-items/11402/inventory-item-images"
               }
             }
-          },
-          "type": "inventory-items"
+          }
         },
         {
-          "attributes": {
-            "additional-shipping-price-in-cents": 6804,
-            "can-be-returned": false,
-            "estimated-delivery-date": "2018-01-16",
-            "estimated-ship-date": "2018-01-12",
-            "has-shipped": false,
-            "included-shipping-price-in-cents": 0,
-            "net-platform-fee-in-cents": 10014,
-            "purchase-price-in-cents": 83453,
-            "refund-amount-in-cents": null,
-            "retail-net-in-cents": 73439,
-            "retail-price-in-cents": 83453,
-            "search-vehicle-application": "With Engine, 1.0 L",
-            "search-vehicle-make": "Hyundai",
-            "search-vehicle-model": "Elantra",
-            "search-vehicle-year": 2010,
-            "shipping-carrier": "UPS",
-            "shipping-method": "parcel",
-            "shipping-price-in-cents": 6804,
-            "shipping-service-level": "Two-day Shipping",
-            "supplier-net-in-cents": 80243,
-            "supplier-status": "unfulfilled",
-            "tax-in-cents": 0,
-            "total-price-in-cents": 90257
-          },
-          "id": "32",
+          "id": "49",
+          "type": "order-items",
           "links": {
-            "self": "http://localhost:3000/api/order-items/32"
+            "self": "http://www.example.com/api/order-items/49"
+          },
+          "attributes": {
+            "shipping-carrier": null,
+            "shipping-service-level": "Two-day Shipping",
+            "shipping-price-in-cents": 2000,
+            "additional-shipping-price-in-cents": 500,
+            "included-shipping-price-in-cents": 1500,
+            "purchase-price-in-cents": 11500,
+            "can-be-returned": false,
+            "has-shipped": false,
+            "tax-in-cents": 500,
+            "search-vehicle-year": 2010,
+            "search-vehicle-make": "Ford",
+            "search-vehicle-model": "F-150",
+            "search-vehicle-application": "4.8L, VIN 123",
+            "total-price-in-cents": 12500,
+            "shipping-method": "freight_residential",
+            "net-platform-fee-in-cents": 1200,
+            "refund-amount-in-cents": null,
+            "supplier-net-in-cents": 11300,
+            "retail-price-in-cents": 10000,
+            "retail-net-in-cents": 8800,
+            "supplier-status": "unfulfilled",
+            "estimated-ship-date": "2017-09-14",
+            "estimated-delivery-date": "2017-09-22"
           },
           "relationships": {
-            "inventory-item": {
-              "data": {
-                "id": "7",
-                "type": "inventory-items"
-              },
-              "links": {
-                "related": "http://localhost:3000/api/order-items/32/inventory-item",
-                "self": "http://localhost:3000/api/order-items/32/relationships/inventory-item"
-              }
-            },
             "order": {
               "links": {
-                "related": "http://localhost:3000/api/order-items/32/order",
-                "self": "http://localhost:3000/api/order-items/32/relationships/order"
+                "self": "http://www.example.com/api/order-items/49/relationships/order",
+                "related": "http://www.example.com/api/order-items/49/order"
+              }
+            },
+            "inventory-item": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/49/relationships/inventory-item",
+                "related": "http://www.example.com/api/order-items/49/inventory-item"
+              },
+              "data": {
+                "type": "inventory-items",
+                "id": "11402"
+              }
+            },
+            "return": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/49/relationships/return",
+                "related": "http://www.example.com/api/order-items/49/return"
+              },
+              "data": null
+            },
+            "shipment": {
+              "links": {
+                "self": "http://www.example.com/api/order-items/49/relationships/shipment",
+                "related": "http://www.example.com/api/order-items/49/shipment"
               }
             },
             "proof-of-condition-images": {
               "links": {
-                "related": "http://localhost:3000/api/order-items/32/proof-of-condition-images",
-                "self": "http://localhost:3000/api/order-items/32/relationships/proof-of-condition-images"
-              }
-            },
-            "return": {
-              "data": null,
-              "links": {
-                "related": "http://localhost:3000/api/order-items/32/return",
-                "self": "http://localhost:3000/api/order-items/32/relationships/return"
-              }
-            },
-            "shipment": {
-              "links": {
-                "related": "http://localhost:3000/api/order-items/32/shipment",
-                "self": "http://localhost:3000/api/order-items/32/relationships/shipment"
+                "self": "http://www.example.com/api/order-items/49/relationships/proof-of-condition-images",
+                "related": "http://www.example.com/api/order-items/49/proof-of-condition-images"
               }
             }
-          },
-          "type": "order-items"
+          }
         },
         {
+          "id": "34880",
+          "type": "addresses",
+          "links": {
+            "self": "http://www.example.com/api/addresses/34880"
+          },
           "attributes": {
-            "city": "Livingston",
-            "is-residential": null,
-            "name": "Amos Diggory",
-            "phone-number": "1234567890",
-            "state": "NJ",
-            "street": "13 Garden St.",
+            "name": "Andromeda Tonks",
+            "street": "200 Arizona co. road",
             "suite": "",
-            "zipcode": "07039"
-          },
-          "id": "4",
-          "links": {
-            "self": "http://localhost:3000/api/addresses/4"
-          },
-          "type": "addresses"
+            "city": "Atlanta",
+            "state": "ga",
+            "zipcode": "30307-1234",
+            "phone-number": "1234567890",
+            "is-residential": null
+          }
         },
         {
-          "attributes": {
-            "is-selling-inventory": true,
-            "name": "Darth's Local Parts",
-            "website": "http://darth-Local-parts.com"
-          },
-          "id": "1",
+          "id": "19804",
+          "type": "companies",
           "links": {
-            "self": "http://localhost:3000/api/companies/1"
+            "self": "http://www.example.com/api/companies/19804"
           },
-          "type": "companies"
+          "attributes": {
+            "name": "Bob Dylan's Highway 61 Auto",
+            "website": "",
+            "is-selling-inventory": true
+          }
         },
         {
-          "attributes": {
-            "city": "New Port Richey",
-            "contact-email": "todd@partcycle.com",
-            "contact-name": "Todd",
-            "contact-phone-number": "5555555555",
-            "last-inventory-import-at": null,
-            "nickname": "AutoYard-0",
-            "phone-number": "1970961976",
-            "state": "FL",
-            "street": "85 Bay Drive",
-            "suite": "Apt 3",
-            "zipcode": "34653"
-          },
-          "id": "1",
+          "id": "10136",
+          "type": "locations",
           "links": {
-            "self": "http://localhost:3000/api/locations/1"
+            "self": "http://www.example.com/api/locations/10136"
+          },
+          "attributes": {
+            "street": "7920 Glenlake Avenue",
+            "suite": "",
+            "city": "Ankeny",
+            "state": "IA",
+            "zipcode": "50023",
+            "phone-number": "1234567890",
+            "nickname": "My main store",
+            "contact-name": "Bob Dylan",
+            "contact-phone-number": "1234567890",
+            "contact-email": "Bob@Dylan.biz",
+            "last-inventory-import-at": null
           },
           "relationships": {
-            "bank-account": {
+            "inventory-items": {
               "links": {
-                "related": "http://localhost:3000/api/locations/1/bank-account",
-                "self": "http://localhost:3000/api/locations/1/relationships/bank-account"
+                "self": "http://www.example.com/api/locations/10136/relationships/inventory-items",
+                "related": "http://www.example.com/api/locations/10136/inventory-items"
               }
             },
             "company": {
-              "data": {
-                "id": "1",
-                "type": "companies"
-              },
               "links": {
-                "related": "http://localhost:3000/api/locations/1/company",
-                "self": "http://localhost:3000/api/locations/1/relationships/company"
+                "self": "http://www.example.com/api/locations/10136/relationships/company",
+                "related": "http://www.example.com/api/locations/10136/company"
+              },
+              "data": {
+                "type": "companies",
+                "id": "19804"
               }
             },
-            "inventory-items": {
+            "bank-account": {
               "links": {
-                "related": "http://localhost:3000/api/locations/1/inventory-items",
-                "self": "http://localhost:3000/api/locations/1/relationships/inventory-items"
+                "self": "http://www.example.com/api/locations/10136/relationships/bank-account",
+                "related": "http://www.example.com/api/locations/10136/bank-account"
               }
             }
+          }
+        },
+        {
+          "id": "31",
+          "type": "conversations",
+          "links": {
+            "self": "http://www.example.com/api/conversations/31"
           },
-          "type": "locations"
+          "attributes": {
+            "subject": "1502342187707",
+            "company-name": "Bob Dylan's Highway 61 Auto"
+          },
+          "relationships": {
+            "inventory-item": {
+              "links": {
+                "self": "http://www.example.com/api/conversations/31/relationships/inventory-item",
+                "related": "http://www.example.com/api/conversations/31/inventory-item"
+              }
+            },
+            "messages": {
+              "links": {
+                "self": "http://www.example.com/api/conversations/31/relationships/messages",
+                "related": "http://www.example.com/api/conversations/31/messages"
+              },
+              "data": []
+            },
+            "order": {
+              "links": {
+                "self": "http://www.example.com/api/conversations/31/relationships/order",
+                "related": "http://www.example.com/api/conversations/31/order"
+              }
+            },
+            "user": {
+              "links": {
+                "self": "http://www.example.com/api/conversations/31/relationships/user",
+                "related": "http://www.example.com/api/conversations/31/user"
+              }
+            }
+          }
         }
       ]
     }
   }
 }
-
