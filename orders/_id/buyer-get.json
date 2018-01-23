@@ -25,8 +25,8 @@
           "status-updated-at": "2018-01-09T20:59:00.713Z",
           "supplier-net-in-cents": 80243,
           "supplier-status": "pending",
-          "tax-total-in-cents": 0,
-          "total-in-cents": 90257,
+          "tax-total-in-cents": 500,
+          "total-in-cents": 90757,
           "updated-at": "2018-01-09T20:59:02.058Z"
         },
         "id": "32",
@@ -430,4 +430,3 @@
     }
   }
 }
-
