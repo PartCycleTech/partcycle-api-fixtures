@@ -243,7 +243,7 @@
             "grade": "A",
             "company-rating": null,
             "is-available-for-purchase": null,
-            "is-commercial-shipping": true,
+            "is-commercial-shipping": false,
             "is-listed": true,
             "description": "INCLUDES MOUNTING HARDWARE",
             "stock-number": "ABC123",
@@ -295,7 +295,7 @@
           },
           "attributes": {
             "shipping-carrier": null,
-            "shipping-service-level": "Standard Freight",
+            "shipping-service-level": "Two-day Shipping",
             "shipping-price-in-cents": 2000,
             "additional-shipping-price-in-cents": 500,
             "included-shipping-price-in-cents": 1500,
