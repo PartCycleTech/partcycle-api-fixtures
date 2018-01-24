@@ -32,7 +32,8 @@
           "purchase-price-total-in-cents": 11500,
           "additional-shipping-total-in-cents": 500,
           "net-platform-fee-in-cents": 1200,
-          "refund-total-in-cents": 0
+          "refund-total-in-cents": 0,
+          "is-potential-fraud": false
         },
         "relationships": {
           "credit-card": {

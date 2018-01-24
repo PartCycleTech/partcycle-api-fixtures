@@ -32,7 +32,8 @@
           "has-open-returns": false,
           "has-closed-returns": false,
           "buyer-status": "awaiting_shipment",
-          "supplier-status": "pending"
+          "supplier-status": "pending",
+          "is-potential-fraud": false
         },
         "relationships": {
           "credit-card": {
