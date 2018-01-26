@@ -1,0 +1,32 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "relationships": {
+          "order-item": {
+            "data": {
+              "id": "id#order-item-id",
+              "type": "order-items"
+            }
+          }
+        },
+        "type": "order-item-return-quotes"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "id#order-item-return-quote-id",
+        "attributes": {
+          "rate-id": "id#rate-id",
+          "shipping-price-in-cents": "number#shipping-price-in-cents",
+          "restocking-fee-in-cents": "number#restocking-fee-in-cents",
+          "refund-total-in-cents": "number#refund-total-in-cents"
+        },
+        "type": "order-item-return-quotes"
+      }
+    }
+  }
+}
