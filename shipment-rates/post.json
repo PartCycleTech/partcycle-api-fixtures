@@ -66,7 +66,7 @@
           "attributes": {
             "carrier": "UPS",
             "service-level": "Two-day Shipping",
-            "price-in-cents": 3028,
+            "price-in-cents": 3029,
             "estimated-delivery-date": "any#quote-1-delivery-date",
             "estimated-ship-date": "any#quote-1-ship-date",
             "inventory-item-id": "id#quote-1-inventory-item-id"
