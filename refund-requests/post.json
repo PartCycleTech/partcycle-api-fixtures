@@ -1,0 +1,38 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "order-item-id": "id#order-item-id",
+          "reason": "Wrong part"
+        },
+        "type": "refund-requests"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "18",
+        "type": "refund-requests",
+        "links": {
+          "self": "http://www.example.com/api/refund-requests/18"
+        },
+        "attributes": {
+          "order-item-id": "id#order-item-id",
+          "reason": "Wrong part",
+          "status": "new"
+        },
+        "relationships": {
+          "order-item": {
+            "links": {
+              "self": "http://www.example.com/api/refund-requests/18/relationships/order-item",
+              "related": "http://www.example.com/api/refund-requests/18/order-item"
+            }
+          }
+        }
+      }
+    }
+  }
+}
