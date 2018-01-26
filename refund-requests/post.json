@@ -3,7 +3,7 @@
     "body": {
       "data": {
         "attributes": {
-          "order-item-id": "id#order-item-id",
+          "order-item-id": "number#order-item-id",
           "reason": "Wrong part"
         },
         "type": "refund-requests"
@@ -20,7 +20,7 @@
           "self": "http://www.example.com/api/refund-requests/18"
         },
         "attributes": {
-          "order-item-id": "id#order-item-id",
+          "order-item-id": "number#order-item-id",
           "reason": "Wrong part",
           "status": "new"
         },
