@@ -4,7 +4,7 @@
       "data": {
         "attributes": {
           "custom-reason-text": "",
-          "order-id": "number#order-id",
+          "order-id": "id#order-id",
           "reason": "could_not_be_shipped_quickly"
         },
         "type": "order-cancellations"

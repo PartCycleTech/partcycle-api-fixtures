@@ -7,7 +7,7 @@
           "to-state": "any#to-state",
           "items": [
             {
-              "inventory-item-id": "number#inventory-item-id",
+              "inventory-item-id": "id#inventory-item-id",
               "additional-shipping-price-in-cents": "number#additional-shipping-price-in-cents"
             }
           ]

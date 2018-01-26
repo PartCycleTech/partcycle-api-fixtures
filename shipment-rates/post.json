@@ -10,7 +10,7 @@
             "data": [
               {
                 "type": "inventory-items",
-                "id": "number#inventory-item-id"
+                "id": "id#inventory-item-id"
               }
             ]
           }
