@@ -1,0 +1,38 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "refund-request-id": "number#refund-request-id",
+          "amount-in-cents": 1200
+        },
+        "type": "discount-offers"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "8",
+        "type": "discount-offers",
+        "links": {
+          "self": "http://www.example.com/api/discount-offers/8"
+        },
+        "attributes": {
+          "refund-request-id": "number#refund-request-id", 
+          "amount-in-cents": 1200, 
+          "status": "new"
+        },
+        "relationships": {
+          "refund-request": {
+            "links": {
+              "self": "http://www.example.com/api/discount-offers/8/relationships/refund-request",
+              "related": "http://www.example.com/api/discount-offers/8/refund-request"
+            }
+          }
+        }
+      }
+    }
+  }
+}
