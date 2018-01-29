@@ -7,7 +7,7 @@
           "to-state": "any#to-state",
           "items": [
             {
-              "inventory-item-id": "id#inventory-item-id",
+              "inventory-item-id": "id#request-inventory-item-id",
               "additional-shipping-price-in-cents": "number#additional-shipping-price-in-cents"
             }
           ]
@@ -27,7 +27,7 @@
           "to-state": "TN",
           "items": [
             {
-              "inventory_item_id": "id#inventory-item-id",
+              "inventory_item_id": "id#request-inventory-item-id",
               "additional_shipping_price_in_cents": 1200
             }
           ]
@@ -55,7 +55,7 @@
             "self": "http://www.example.com/api/sales-tax-rate-estimates/fd56fb80-9657-48b3-9fe2-b1f0b070258a"
           },
           "attributes": {
-            "inventory-item-id": "id#inventory-item-id",
+            "inventory-item-id": "number#response-inventory-item-id",
             "tax-in-cents": "number#tax-in-cents"
           },
           "relationships": {

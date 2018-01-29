@@ -18,8 +18,8 @@
         "id": "169",
         "type": "order-cancellations",
         "attributes": {
-          "order-id": "id#order-id",
-          "user-id": "id#user-id",
+          "order-id": "number#order-id",
+          "user-id": "number#user-id",
           "reason": "could_not_be_shipped_quickly",
           "custom-reason-text": "",
           "created-at": "2017-08-28T16:04:07.891Z"

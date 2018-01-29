@@ -57,7 +57,7 @@
             "price-in-cents": 0,
             "estimated-delivery-date": "any#quote-0-delivery-date",
             "estimated-ship-date": "any#quote-0-ship-date",
-            "inventory-item-id": "id#quote-0-inventory-item-id"
+            "inventory-item-id": "number#quote-0-inventory-item-id"
           }
         },
         {
@@ -66,10 +66,10 @@
           "attributes": {
             "carrier": "UPS",
             "service-level": "Two-day Shipping",
-            "price-in-cents": 3028,
+            "price-in-cents": 3029,
             "estimated-delivery-date": "any#quote-1-delivery-date",
             "estimated-ship-date": "any#quote-1-ship-date",
-            "inventory-item-id": "id#quote-1-inventory-item-id"
+            "inventory-item-id": "number#quote-1-inventory-item-id"
           }
         },
         {
@@ -81,7 +81,7 @@
             "price-in-cents": 8104,
             "estimated-delivery-date": "any#quote-2-delivery-date",
             "estimated-ship-date": "any#quote-2-ship-date",
-            "inventory-item-id": "id#quote-2-inventory-item-id"
+            "inventory-item-id": "number#quote-2-inventory-item-id"
           }
         }
       ]

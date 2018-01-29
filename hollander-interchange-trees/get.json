@@ -23,7 +23,7 @@
                   "element": {
                     "note": "5.0 L",
                     "part": {
-                      "id": "id#part-id"
+                      "id": "number#part-id"
                     },
                     "hollander-part-type": null,
                     "hollander-part-type-name": null,
