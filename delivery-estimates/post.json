@@ -22,13 +22,23 @@
     "status": "202",
     "body": {
       "data": {
-        "id": "id#delivery-estimate-id",
+        "id": "5cfe6bdc-74d6-48a5-a40b-7e25e58397c3",
+        "type": "delivery-estimates",
         "attributes": {
-          "delivery-date": "2017-06-26",
-          "to-zip": "35630"
+          "to-zip": "35630", 
+          "delivery-date": "2018-02-14"
         },
-        "type": "delivery-estimates"
+        "relationships": {
+          "inventory-item": {
+            "links": {
+              "self": "http://www.example.com/api/delivery-estimates/5cfe6bdc-74d6-48a5-a40b-7e25e58397c3/relationships/inventory-item", 
+              "related": "http://www.example.com/api/delivery-estimates/5cfe6bdc-74d6-48a5-a40b-7e25e58397c3/inventory-item"
+            }
+          }
+        }
       }
     }
   }
 }
+
+
