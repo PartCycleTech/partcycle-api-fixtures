@@ -18,14 +18,24 @@
     "status": "201",
     "body": {
       "data": {
-        "id": "id#order-item-return-quote-id",
-        "attributes": {
-          "rate-id": "id#rate-id",
-          "shipping-price-in-cents": "number#shipping-price-in-cents",
-          "restocking-fee-in-cents": "number#restocking-fee-in-cents",
-          "refund-total-in-cents": "number#refund-total-in-cents"
+        "id":"d6dc28ce-7778-4f25-9d77-754977fd6050",
+        "type":"order-item-return-quotes",
+        "links": {
+          "self":"http://www.example.com/api/order-item-return-quotes/d6dc28ce-7778-4f25-9d77-754977fd6050"
         },
-        "type": "order-item-return-quotes"
+        "attributes": {
+          "rate-id":"rate_ar350NPDpXNQn3F0djkCmF4f", 
+          "shipping-price-in-cents":1347, 
+          "restocking-fee-in-cents":1725, 
+          "refund-total-in-cents":8928
+        },
+        "relationships": {
+          "order-item": { 
+            "links": {
+              "self":"http://www.example.com/api/order-item-return-quotes/d6dc28ce-7778-4f25-9d77-754977fd6050/relationships/order-item", "related":"http://www.example.com/api/order-item-return-quotes/d6dc28ce-7778-4f25-9d77-754977fd6050/order-item"
+            }
+          }
+        }
       }
     }
   }
