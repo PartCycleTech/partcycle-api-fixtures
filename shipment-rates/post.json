@@ -23,25 +23,31 @@
     "status": "202",
     "body": {
       "data": {
-        "id": "36240c76-7e0d-415b-89a8-d080def8757f",
-        "type": "shipment-rates",
-        "attributes": {
-          "to-zip": "12345"
+        "id":"cf0202d3-0f90-4a22-8450-d5b58fc9bb15",
+        "type":"shipment-rates",
+        "attributes":{
+          "to-zip":"12345"
         },
         "relationships": {
+          "inventory-item": {
+            "links": {
+              "self":"http://www.example.com/api/shipment-rates/cf0202d3-0f90-4a22-8450-d5b58fc9bb15/relationships/inventory-item", "related":"http://www.example.com/api/shipment-rates/cf0202d3-0f90-4a22-8450-d5b58fc9bb15/inventory-item"
+            }
+          },
           "shipment-rate-quotes": {
+            "links": {
+              "self":"http://www.example.com/api/shipment-rates/cf0202d3-0f90-4a22-8450-d5b58fc9bb15/relationships/shipment-rate-quotes", "related":"http://www.example.com/api/shipment-rates/cf0202d3-0f90-4a22-8450-d5b58fc9bb15/shipment-rate-quotes"
+            },
             "data": [
               {
-                "type": "shipment-rate-quotes",
-                "id": "rate_9RGfBG8VHn7XaBJYWHE5aHsh_622"
-              },
-              {
-                "type": "shipment-rate-quotes",
-                "id": "rate_27FYM0XsXP7YjXa3BdwXR1Vh_622"
-              },
-              {
-                "type": "shipment-rate-quotes",
-                "id": "rate_DzfjJGTGCz0XDHQKJ3DYyZAa_622"
+                "type":"shipment-rate-quotes", 
+                "id":"rate_S23SjzQeTG8Y8nAsdRMHayhH_16923"
+              }, {
+                "type":"shipment-rate-quotes", 
+                "id":"rate_EPVSvne0QSAFXWsMmAK4Yt0a_16923"
+              }, {
+                "type":"shipment-rate-quotes", 
+                "id":"rate_xGmQZwcr71NGN1KeqQnrBphJ_16923"
               }
             ]
           }
@@ -49,39 +55,69 @@
       },
       "included": [
         {
-          "id": "rate_9RGfBG8VHn7XaBJYWHE5aHsh_622",
-          "type": "shipment-rate-quotes",
-          "attributes": {
-            "carrier": "UPS",
-            "service-level": "Standard Shipping (3-5 Business Days)",
-            "price-in-cents": 0,
+          "id":"rate_S23SjzQeTG8Y8nAsdRMHayhH_16923",
+          "type":"shipment-rate-quotes",
+          "links": {
+            "self":"http://www.example.com/api/shipment-rate-quotes/rate_S23SjzQeTG8Y8nAsdRMHayhH_16923"
+          },
+          "attributes":{
+            "carrier":"UPS", 
+            "service-level":"Standard Shipping (3-5 Business Days)", 
+            "price-in-cents": "number#quote-0-price-in-cents", 
             "estimated-delivery-date": "any#quote-0-delivery-date",
             "estimated-ship-date": "any#quote-0-ship-date",
             "inventory-item-id": "number#quote-0-inventory-item-id"
+          },
+          "relationships": {
+            "shipment-rate": {
+              "links": { 
+                "self":"http://www.example.com/api/shipment-rate-quotes/rate_S23SjzQeTG8Y8nAsdRMHayhH_16923/relationships/shipment-rate", "related":"http://www.example.com/api/shipment-rate-quotes/rate_S23SjzQeTG8Y8nAsdRMHayhH_16923/shipment-rate"
+              }
+            }
           }
         },
         {
-          "id": "rate_27FYM0XsXP7YjXa3BdwXR1Vh_622",
-          "type": "shipment-rate-quotes",
+          "id":"rate_EPVSvne0QSAFXWsMmAK4Yt0a_16923",
+          "type":"shipment-rate-quotes",
+          "links": {
+            "self":"http://www.example.com/api/shipment-rate-quotes/rate_EPVSvne0QSAFXWsMmAK4Yt0a_16923"
+          },
           "attributes": {
-            "carrier": "UPS",
-            "service-level": "Two-day Shipping",
-            "price-in-cents": 3029,
+            "carrier":"UPS", 
+            "service-level":"Two-day Shipping", 
+            "price-in-cents": "number#quote-1-price-in-cents", 
             "estimated-delivery-date": "any#quote-1-delivery-date",
             "estimated-ship-date": "any#quote-1-ship-date",
             "inventory-item-id": "number#quote-1-inventory-item-id"
+          },
+          "relationships": {
+            "shipment-rate": {
+              "links": {
+                "self":"http://www.example.com/api/shipment-rate-quotes/rate_EPVSvne0QSAFXWsMmAK4Yt0a_16923/relationships/shipment-rate", "related":"http://www.example.com/api/shipment-rate-quotes/rate_EPVSvne0QSAFXWsMmAK4Yt0a_16923/shipment-rate"
+              }
+            }
           }
         },
         {
-          "id": "rate_DzfjJGTGCz0XDHQKJ3DYyZAa_622",
-          "type": "shipment-rate-quotes",
+          "id":"rate_xGmQZwcr71NGN1KeqQnrBphJ_16923",
+          "type":"shipment-rate-quotes",
+          "links": {
+            "self":"http://www.example.com/api/shipment-rate-quotes/rate_xGmQZwcr71NGN1KeqQnrBphJ_16923"
+          },
           "attributes": {
-            "carrier": "UPS",
-            "service-level": "Next-day Shipping",
-            "price-in-cents": 8104,
+            "carrier":"UPS", 
+            "service-level":"Next-day Shipping", 
+            "price-in-cents": "number#quote-2-price-in-cents", 
             "estimated-delivery-date": "any#quote-2-delivery-date",
             "estimated-ship-date": "any#quote-2-ship-date",
             "inventory-item-id": "number#quote-2-inventory-item-id"
+          },
+          "relationships": {
+            "shipment-rate": {
+              "links": {
+                "self":"http://www.example.com/api/shipment-rate-quotes/rate_xGmQZwcr71NGN1KeqQnrBphJ_16923/relationships/shipment-rate", "related":"http://www.example.com/api/shipment-rate-quotes/rate_xGmQZwcr71NGN1KeqQnrBphJ_16923/shipment-rate"
+              }
+            }
           }
         }
       ]
