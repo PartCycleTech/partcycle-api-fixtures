@@ -1,0 +1,28 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "order-item-id": "number#order-item-id",
+          "amount-in-cents": "number#amount-in-cents"
+        },
+        "type": "refunds"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "1160",
+        "type": "refunds",
+        "links": {},
+        "attributes": {
+          "order-item-id": "number#order-item-id",
+          "amount-in-cents": "number#amount-in-cents"
+        },
+        "relationships": {}
+      }
+    }
+  }
+}
