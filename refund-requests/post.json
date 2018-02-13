@@ -3,10 +3,17 @@
     "body": {
       "data": {
         "attributes": {
-          "order-item-id": "number#order-item-id",
           "reason": "Wrong part"
         },
-        "type": "refund-requests"
+        "type": "refund-requests",
+        "relationships": {
+          "order-item": {
+            "data": {
+              "type": "order-items",
+              "id": "number#order-item-id"
+            }
+          }
+        }
       }
     }
   },
@@ -20,7 +27,6 @@
           "self": "http://www.example.com/api/refund-requests/18"
         },
         "attributes": {
-          "order-item-id": "number#order-item-id",
           "reason": "Wrong part",
           "status": "new"
         },
