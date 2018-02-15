@@ -3,8 +3,15 @@
     "body": {
       "data": {
         "attributes": {
-          "order-item-id": "number#order-item-id",
           "amount-in-cents": "number#amount-in-cents"
+        },
+        "relationships": {
+          "order-item": {
+            "data": {
+              "type": "order-items",
+              "id": "number#order-item-id"
+            }
+          }
         },
         "type": "refunds"
       }
@@ -18,7 +25,6 @@
         "type": "refunds",
         "links": {},
         "attributes": {
-          "order-item-id": "number#order-item-id",
           "amount-in-cents": "number#amount-in-cents"
         },
         "relationships": {}

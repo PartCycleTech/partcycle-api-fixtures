@@ -3,8 +3,15 @@
     "body": {
       "data": {
         "attributes": {
-          "refund-request-id": "number#refund-request-id",
           "amount-in-cents": 1200
+        },
+        "relationships": {
+          "refund-request": {
+            "data": {
+              "type": "refund-requests",
+              "id": "number#refund-request-id"
+            }
+          }
         },
         "type": "discount-offers"
       }
@@ -20,7 +27,6 @@
           "self": "http://www.example.com/api/discount-offers/8"
         },
         "attributes": {
-          "refund-request-id": "number#refund-request-id", 
           "amount-in-cents": 1200, 
           "status": "new"
         },
