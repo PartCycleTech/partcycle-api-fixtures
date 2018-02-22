@@ -1,0 +1,40 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "relationships": {
+          "order-item-return": {
+            "data": {
+              "id": "id#order-item-return-id",
+              "type": "order-item-returns"
+            }
+          }
+        },
+        "type": "order-item-return-labels"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "0a43ea61-0fdd-462f-8239-5e3deea52f22",
+        "type": "order-item-return-labels",
+        "links": {
+          "self": "http://www.example.com/api/order-item-return-labels/0a43ea61-0fdd-462f-8239-5e3deea52f22"
+        },
+        "attributes": {
+          "url": "https://shiphawk-assets-rackspace-sandbox.s3.amazonaws.com/uploads/package_labels_combined_20180222-5129-ev1aai.pdf?AWSAccessKeyId=AKIAIGBEYNQ6VGNFN2GQ&Signature=2EsJ5O23SbiGit/RyP1ywZNIQJs%3D&Expires=1834908378"
+        },
+        "relationships": {
+          "order-item-return": {
+            "links": {
+              "self": "http://www.example.com/api/order-item-return-labels/0a43ea61-0fdd-462f-8239-5e3deea52f22/relationships/order-item-return",
+              "related": "http://www.example.com/api/order-item-return-labels/0a43ea61-0fdd-462f-8239-5e3deea52f22/order-item-return"
+            }
+          }
+        }
+      }
+    }
+  }
+}
