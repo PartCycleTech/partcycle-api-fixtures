@@ -1,0 +1,43 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "reason": "They sent back the wrong thing"
+        },
+        "relationships": {
+          "order-item-return": {
+            "data": {
+              "id": "id#order-item-return-id",
+              "type": "order-item-returns"
+            }
+          }
+        },
+        "type": "order-item-return-claims"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "9",
+        "type": "order-item-return-claims",
+        "links": {
+          "self": "http://www.example.com/api/order-item-return-claims/9"
+        },
+        "attributes": {
+          "reason": "They sent back a box of banana peels!"
+        },
+        "relationships": {
+          "order-item-return": {
+            "links": {
+              "self": "http://www.example.com/api/order-item-return-claims/9/relationships/order-item-return",
+              "related": "http://www.example.com/api/order-item-return-claims/9/order-item-return"
+            }
+          }
+        }
+      }
+    }
+  }
+}
