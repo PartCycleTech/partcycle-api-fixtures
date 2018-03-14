@@ -1,0 +1,554 @@
+{
+  "request": {
+    "body": null
+  },
+  "response": {
+    "status": "200",
+    "body": {
+      "data": {
+        "id": "3",
+        "type": "orders",
+        "links": {
+          "self": "http://localhost:3000/api/orders/3"
+        },
+        "attributes": {
+          "confirmation-number": "1519764264608",
+          "created-at": "2018-02-27T20:44:24.608Z",
+          "updated-at": "2018-03-06T21:50:46.491Z",
+          "status-updated-at": "2018-02-27T20:44:59.550Z",
+          "status": "open_return",
+          "is-open": true,
+          "total-in-cents": 10000,
+          "platform-fee-in-cents": 1200,
+          "has-open-returns": true,
+          "has-closed-returns": false,
+          "buyer-status": "open_return",
+          "retail-total-in-cents": 10000,
+          "retail-net-in-cents": 8800,
+          "shipping-total-in-cents": 0,
+          "tax-total-in-cents": 0,
+          "supplier-net-in-cents": 8800,
+          "supplier-status": "open_return",
+          "purchase-price-total-in-cents": 10000,
+          "additional-shipping-total-in-cents": 0,
+          "net-platform-fee-in-cents": 1200,
+          "refund-total-in-cents": 0,
+          "is-potential-fraud": false
+        },
+        "relationships": {
+          "credit-card": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/credit-card",
+              "related": "http://localhost:3000/api/orders/3/credit-card"
+            },
+            "data": {
+              "type": "credit-cards",
+              "id": "1"
+            }
+          },
+          "inventory-items": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/inventory-items",
+              "related": "http://localhost:3000/api/orders/3/inventory-items"
+            }
+          },
+          "order-items": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/order-items",
+              "related": "http://localhost:3000/api/orders/3/order-items"
+            },
+            "data": [
+              {
+                "type": "order-items",
+                "id": "3"
+              }
+            ]
+          },
+          "billing-address": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/billing-address",
+              "related": "http://localhost:3000/api/orders/3/billing-address"
+            }
+          },
+          "shipping-address": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/shipping-address",
+              "related": "http://localhost:3000/api/orders/3/shipping-address"
+            },
+            "data": {
+              "type": "addresses",
+              "id": "4"
+            }
+          },
+          "user": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/user",
+              "related": "http://localhost:3000/api/orders/3/user"
+            }
+          },
+          "shipments": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/shipments",
+              "related": "http://localhost:3000/api/orders/3/shipments"
+            }
+          },
+          "location": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/location",
+              "related": "http://localhost:3000/api/orders/3/location"
+            },
+            "data": {
+              "type": "locations",
+              "id": "3"
+            }
+          },
+          "returns": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/returns",
+              "related": "http://localhost:3000/api/orders/3/returns"
+            }
+          },
+          "order-cancellation": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/order-cancellation",
+              "related": "http://localhost:3000/api/orders/3/order-cancellation"
+            },
+            "data": null
+          },
+          "order-notes": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/order-notes",
+              "related": "http://localhost:3000/api/orders/3/order-notes"
+            }
+          },
+          "order-events": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/order-events",
+              "related": "http://localhost:3000/api/orders/3/order-events"
+            }
+          },
+          "conversations": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/conversations",
+              "related": "http://localhost:3000/api/orders/3/conversations"
+            },
+            "data": []
+          },
+          "supplier-order-record": {
+            "links": {
+              "self": "http://localhost:3000/api/orders/3/relationships/supplier-order-record",
+              "related": "http://localhost:3000/api/orders/3/supplier-order-record"
+            }
+          }
+        }
+      },
+      "included": [
+        {
+          "id": "1",
+          "type": "credit-cards",
+          "links": {
+            "self": "http://localhost:3000/api/credit-cards/1"
+          },
+          "attributes": {
+            "last-four-digits": "4242",
+            "name": "John Doe",
+            "expiration-year": "2020",
+            "expiration-month": "01",
+            "company": "Visa"
+          }
+        },
+        {
+          "id": "1",
+          "type": "part-kinds",
+          "links": {
+            "self": "http://localhost:3000/api/part-kinds/1"
+          },
+          "attributes": {
+            "name": "Front End Assembly",
+            "hollander-part-type": "100",
+            "alternate-names": [
+              "Front Clip",
+              "Nose"
+            ],
+            "whats-included": "See Front end assembly unitized or full framed full or partial cut, less one fender assembly",
+            "whats-not-included": "See Front End Assembly Full Framed or Unitized, or Front End Assembly Partial cut , plus one fender",
+            "ara-definition": "Body",
+            "is-available-for-sale": false,
+            "youtube-id": null
+          }
+        },
+        {
+          "id": "1",
+          "type": "parts",
+          "links": {
+            "self": "http://localhost:3000/api/parts/1"
+          },
+          "attributes": {
+            "hollander-interchange": "100-00001",
+            "interchange-number": "00001",
+            "name": "Front End Assembly"
+          },
+          "relationships": {
+            "diagrams": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/1/relationships/diagrams",
+                "related": "http://localhost:3000/api/parts/1/diagrams"
+              }
+            },
+            "inventory-items": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/1/relationships/inventory-items",
+                "related": "http://localhost:3000/api/parts/1/inventory-items"
+              }
+            },
+            "vehicles": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/1/relationships/vehicles",
+                "related": "http://localhost:3000/api/parts/1/vehicles"
+              }
+            },
+            "part-kind": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/1/relationships/part-kind",
+                "related": "http://localhost:3000/api/parts/1/part-kind"
+              },
+              "data": {
+                "type": "part-kinds",
+                "id": "1"
+              }
+            },
+            "part-images": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/1/relationships/part-images",
+                "related": "http://localhost:3000/api/parts/1/part-images"
+              }
+            }
+          }
+        },
+        {
+          "id": "28",
+          "type": "inventory-items",
+          "links": {
+            "self": "http://localhost:3000/api/inventory-items/28"
+          },
+          "attributes": {
+            "company-name": "Emperor's Local Parts",
+            "price-in-cents": 10000,
+            "grade": "A",
+            "company-rating": null,
+            "is-available-for-purchase": null,
+            "is-commercial-shipping": false,
+            "is-listed": true,
+            "description": "INCLUDES MOUNTING HARDWARE",
+            "stock-number": "ABC123",
+            "stock-location": "R1",
+            "stock-date-added": "2018-02-27",
+            "is-available-for-search": null,
+            "intelligent-description": "",
+            "purchase-price-in-cents": 10000,
+            "intelligent-quality": "like_new",
+            "yms-unique-id": "6354200",
+            "unique-attribute-hash": "3d2f6dfaba741fc6a9aed24aa9f9314351161395"
+          },
+          "relationships": {
+            "donor-car": {
+              "links": {
+                "self": "http://localhost:3000/api/inventory-items/28/relationships/donor-car",
+                "related": "http://localhost:3000/api/inventory-items/28/donor-car"
+              }
+            },
+            "part": {
+              "links": {
+                "self": "http://localhost:3000/api/inventory-items/28/relationships/part",
+                "related": "http://localhost:3000/api/inventory-items/28/part"
+              },
+              "data": {
+                "type": "parts",
+                "id": "1"
+              }
+            },
+            "location": {
+              "links": {
+                "self": "http://localhost:3000/api/inventory-items/28/relationships/location",
+                "related": "http://localhost:3000/api/inventory-items/28/location"
+              }
+            },
+            "inventory-item-images": {
+              "links": {
+                "self": "http://localhost:3000/api/inventory-items/28/relationships/inventory-item-images",
+                "related": "http://localhost:3000/api/inventory-items/28/inventory-item-images"
+              }
+            }
+          },
+          "meta": {
+            "distance": {
+              "magnitude": null,
+              "units": "mi"
+            }
+          }
+        },
+        {
+          "id": "3",
+          "type": "returns",
+          "links": {
+            "self": "http://localhost:3000/api/returns/3"
+          },
+          "attributes": {
+            "order-item-id": 3,
+            "status": "request_pending",
+            "reason": "didn't want it",
+            "detailed-comments": "i really didn't want it",
+            "supplier-comment": null,
+            "refund-type": null,
+            "refund-amount-in-cents": 0,
+            "seller-discretion-refund": false
+          },
+          "relationships": {
+            "order": {
+              "links": {
+                "self": "http://localhost:3000/api/returns/3/relationships/order",
+                "related": "http://localhost:3000/api/returns/3/order"
+              }
+            }
+          }
+        },
+        {
+          "id": "13",
+          "type": "shipments",
+          "links": {
+            "self": "http://localhost:3000/api/shipments/13"
+          },
+          "attributes": {
+            "carrier": "Freight",
+            "tracking-number": "",
+            "notes": "",
+            "created-at": "2018-02-27T20:44:59.539Z",
+            "computed-tracking-page-url": "",
+            "actual-shipping-cost-in-cents": null,
+            "private-notes": null
+          },
+          "relationships": {
+            "order": {
+              "links": {
+                "self": "http://localhost:3000/api/shipments/13/relationships/order",
+                "related": "http://localhost:3000/api/shipments/13/order"
+              }
+            },
+            "order-items": {
+              "links": {
+                "self": "http://localhost:3000/api/shipments/13/relationships/order-items",
+                "related": "http://localhost:3000/api/shipments/13/order-items"
+              }
+            },
+            "shipment-items": {
+              "links": {
+                "self": "http://localhost:3000/api/shipments/13/relationships/shipment-items",
+                "related": "http://localhost:3000/api/shipments/13/shipment-items"
+              }
+            }
+          }
+        },
+        {
+          "id": "6",
+          "type": "order-item-returns",
+          "links": {
+            "self": "http://localhost:3000/api/order-item-returns/6"
+          },
+          "attributes": {
+            "rate-id": null,
+            "shipping-amount-in-cents": 1200,
+            "restocking-fee-in-cents": 100,
+            "refund-amount-in-cents": 1440,
+            "status": "pending",
+            "estimated-delivery-date": null,
+            "actual-delivery-date": null,
+            "updated-at": "2018-03-12T15:49:54.912Z",
+            "shiphawk-id": "shp_BpaggnzA"
+          },
+          "relationships": {
+            "order-item": {
+              "links": {
+                "self": "http://localhost:3000/api/order-item-returns/6/relationships/order-item",
+                "related": "http://localhost:3000/api/order-item-returns/6/order-item"
+              }
+            },
+            "refund-request": {
+              "links": {
+                "self": "http://localhost:3000/api/order-item-returns/6/relationships/refund-request",
+                "related": "http://localhost:3000/api/order-item-returns/6/refund-request"
+              }
+            }
+          }
+        },
+        {
+          "id": "3",
+          "type": "order-items",
+          "links": {
+            "self": "http://localhost:3000/api/order-items/3"
+          },
+          "attributes": {
+            "shipping-carrier": null,
+            "shipping-service-level": "Standard Shipping (3-5 Business Days)",
+            "shipping-price-in-cents": 0,
+            "additional-shipping-price-in-cents": null,
+            "included-shipping-price-in-cents": 0,
+            "purchase-price-in-cents": 10000,
+            "can-be-returned": false,
+            "has-shipped": true,
+            "tax-in-cents": 0,
+            "search-vehicle-year": 2010,
+            "search-vehicle-make": "Ford",
+            "search-vehicle-model": "F-150",
+            "search-vehicle-application": "4WD, VIN XYZ",
+            "total-price-in-cents": 10000,
+            "shipping-method": "freight_residential",
+            "net-platform-fee-in-cents": 1200,
+            "refund-amount-in-cents": null,
+            "supplier-net-in-cents": 8800,
+            "retail-price-in-cents": 10000,
+            "retail-net-in-cents": 8800,
+            "supplier-status": "open_return",
+            "estimated-ship-date": "2018-03-01",
+            "estimated-delivery-date": "2018-03-04"
+          },
+          "relationships": {
+            "order": {
+              "links": {
+                "self": "http://localhost:3000/api/order-items/3/relationships/order",
+                "related": "http://localhost:3000/api/order-items/3/order"
+              }
+            },
+            "inventory-item": {
+              "links": {
+                "self": "http://localhost:3000/api/order-items/3/relationships/inventory-item",
+                "related": "http://localhost:3000/api/order-items/3/inventory-item"
+              },
+              "data": {
+                "type": "inventory-items",
+                "id": "28"
+              }
+            },
+            "return": {
+              "links": {
+                "self": "http://localhost:3000/api/order-items/3/relationships/return",
+                "related": "http://localhost:3000/api/order-items/3/return"
+              },
+              "data": {
+                "type": "returns",
+                "id": "3"
+              }
+            },
+            "shipment": {
+              "links": {
+                "self": "http://localhost:3000/api/order-items/3/relationships/shipment",
+                "related": "http://localhost:3000/api/order-items/3/shipment"
+              },
+              "data": {
+                "type": "shipments",
+                "id": "13"
+              }
+            },
+            "proof-of-condition-images": {
+              "links": {
+                "self": "http://localhost:3000/api/order-items/3/relationships/proof-of-condition-images",
+                "related": "http://localhost:3000/api/order-items/3/proof-of-condition-images"
+              }
+            },
+            "refund-requests": {
+              "links": {
+                "self": "http://localhost:3000/api/order-items/3/relationships/refund-requests",
+                "related": "http://localhost:3000/api/order-items/3/refund-requests"
+              },
+              "data": []
+            },
+            "order-item-returns": {
+              "links": {
+                "self": "http://localhost:3000/api/order-items/3/relationships/order-item-returns",
+                "related": "http://localhost:3000/api/order-items/3/order-item-returns"
+              },
+              "data": [
+                {
+                  "type": "order-item-returns",
+                  "id": "6"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "4",
+          "type": "addresses",
+          "links": {
+            "self": "http://localhost:3000/api/addresses/4"
+          },
+          "attributes": {
+            "name": "Vincent Crabbe",
+            "street": "85 Bay Drive",
+            "suite": "",
+            "city": "New Port Richey",
+            "state": "FL",
+            "zipcode": "34653",
+            "phone-number": "5555555555",
+            "is-residential": null
+          }
+        },
+        {
+          "id": "2",
+          "type": "companies",
+          "links": {
+            "self": "http://localhost:3000/api/companies/2"
+          },
+          "attributes": {
+            "name": "Emperor's Local Parts",
+            "website": "http://emperor-Local-parts.com",
+            "is-selling-inventory": true
+          }
+        },
+        {
+          "id": "3",
+          "type": "locations",
+          "links": {
+            "self": "http://localhost:3000/api/locations/3"
+          },
+          "attributes": {
+            "street": "7920 Glenlake Avenue",
+            "suite": "C",
+            "city": "Ankeny",
+            "state": "IA",
+            "zipcode": "50023",
+            "phone-number": "6647528673",
+            "nickname": "AutoYard-1",
+            "contact-name": "Todd",
+            "contact-phone-number": "5555555555",
+            "contact-email": "todd@partcycle.com",
+            "last-inventory-import-at": null
+          },
+          "relationships": {
+            "inventory-items": {
+              "links": {
+                "self": "http://localhost:3000/api/locations/3/relationships/inventory-items",
+                "related": "http://localhost:3000/api/locations/3/inventory-items"
+              }
+            },
+            "company": {
+              "links": {
+                "self": "http://localhost:3000/api/locations/3/relationships/company",
+                "related": "http://localhost:3000/api/locations/3/company"
+              },
+              "data": {
+                "type": "companies",
+                "id": "2"
+              }
+            },
+            "bank-account": {
+              "links": {
+                "self": "http://localhost:3000/api/locations/3/relationships/bank-account",
+                "related": "http://localhost:3000/api/locations/3/bank-account"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
