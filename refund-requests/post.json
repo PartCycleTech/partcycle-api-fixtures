@@ -4,7 +4,7 @@
       "data": {
         "attributes": {
           "reason": "Wrong part",
-          "at-fault": "seller"
+          "at-fault": "supplier"
         },
         "type": "refund-requests",
         "relationships": {
@@ -30,7 +30,7 @@
         "attributes": {
           "reason": "Wrong part",
           "status": "new",
-          "at-fault": "seller",
+          "at-fault": "supplier",
           "max-refund-in-cents": "number#max-refund-in-cents"
         },
         "relationships": {
