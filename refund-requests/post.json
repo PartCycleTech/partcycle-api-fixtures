@@ -3,7 +3,8 @@
     "body": {
       "data": {
         "attributes": {
-          "reason": "Wrong part"
+          "reason": "Wrong part",
+          "at-fault": "seller"
         },
         "type": "refund-requests",
         "relationships": {
@@ -28,7 +29,9 @@
         },
         "attributes": {
           "reason": "Wrong part",
-          "status": "new"
+          "status": "new",
+          "at-fault": "seller",
+          "max-refund-in-cents": "number#max-refund-in-cents"
         },
         "relationships": {
           "order-item": {
