@@ -1,0 +1,50 @@
+{
+  "request": {
+    "body": {
+      "data": {
+        "attributes": {
+          "rate-id": "any#rate-id",
+          "shipping-amount-in-cents": 0,
+          "restocking-fee-in-cents": 0,
+          "refund-amount-in-cents": 0
+        },
+        "relationships": {
+          "order-item": {
+            "data": {
+              "id": "id#order-item",
+              "type": "order-item"
+            }
+          },
+          "refund-request": {
+            "data": {
+              "id": "id:refund-requests",
+              "type": "refund-requests"
+            }
+          }
+        },
+        "type": "order-item-return"
+      }
+    }
+  },
+  "response": {
+    "status": "201",
+    "body": {
+      "data": {
+        "id": "215",
+        "type": "order-item-returns",
+        "links": {
+          "self": "http://www.example.com/api/order-item-returns/215"
+        },
+        "attributes": {
+          "rate-id": "any#rate-id",
+          "shipping-amount-in-cents": 0,
+          "restocking-fee-in-cents": 0,
+          "refund-amount-in-cents": 0,
+          "status": "pending",
+          "estimated-delivery-date": "2018-03-29T00:00:00.000Z",
+          "actual-delivery-date": null
+        }
+      }
+    }
+  }
+}
