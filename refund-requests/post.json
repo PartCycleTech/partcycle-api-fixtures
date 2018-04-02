@@ -29,7 +29,7 @@
         },
         "attributes": {
           "reason": "Wrong part",
-          "status": "new",
+          "status": "pending",
           "at-fault": "supplier",
           "max-refund-in-cents": "number#max-refund-in-cents"
         },
