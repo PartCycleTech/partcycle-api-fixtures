@@ -43,8 +43,8 @@
           "status": "pending",
           "estimated-delivery-date": "2018-03-29T00:00:00.000Z",
           "actual-delivery-date": null,
-          "tracking_code": "1Z3EF6790334463943",
-          "service_name": "UPS Ground"
+          "tracking-code": "1Z3EF6790334463943",
+          "service-name": "UPS Ground"
         }
       }
     }
