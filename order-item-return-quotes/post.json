@@ -2,6 +2,9 @@
   "request": {
     "body": {
       "data": {
+        "attributes": {
+          "at-fault": "supplier"
+        },
         "relationships": {
           "order-item": {
             "data": {
@@ -24,6 +27,7 @@
           "self":"http://www.example.com/api/order-item-return-quotes/d6dc28ce-7778-4f25-9d77-754977fd6050"
         },
         "attributes": {
+          "at-fault": "supplier",
           "rate-id":"any#rate-id", 
           "shipping-price-in-cents":"number#shipping-price-in-cents", 
           "restocking-fee-in-cents":"number#restocking-fee-in-cents", 
