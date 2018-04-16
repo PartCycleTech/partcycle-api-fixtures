@@ -40,7 +40,7 @@
           "shipping-amount-in-cents": 0,
           "restocking-fee-in-cents": 0,
           "refund-amount-in-cents": 0,
-          "status": "pending",
+          "status": "ordered",
           "estimated-delivery-date": "2018-03-29T00:00:00.000Z",
           "actual-delivery-date": null
         }
