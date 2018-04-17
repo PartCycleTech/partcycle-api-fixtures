@@ -325,7 +325,7 @@
             "at-fault": "buyer",
             "max-refund-in-cents": 56975,
             "reason": "Bought by mistake",
-            "status": "return_pending"
+            "status": "return_ordered"
           },
           "id": "13",
           "links": {
