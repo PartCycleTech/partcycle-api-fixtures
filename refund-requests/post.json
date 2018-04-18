@@ -31,7 +31,8 @@
           "reason": "Wrong part",
           "status": "pending",
           "at-fault": "supplier",
-          "max-refund-in-cents": "number#max-refund-in-cents"
+          "max-refund-in-cents": "number#max-refund-in-cents",
+          "create-order-item-return": null
         },
         "relationships": {
           "order-item": {
