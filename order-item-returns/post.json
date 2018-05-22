@@ -40,9 +40,12 @@
           "shipping-amount-in-cents": 0,
           "restocking-fee-in-cents": 0,
           "refund-amount-in-cents": 0,
-          "status": "pending",
+          "status": "ordered",
           "estimated-delivery-date": "2018-03-29T00:00:00.000Z",
-          "actual-delivery-date": null
+          "actual-delivery-date": null,
+          "computed-tracking-page-url": "https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=1Z3EF6790334463943&loc=en_us",
+          "tracking-code": "1Z3EF6790334463943",
+          "service-name": "UPS Ground"
         }
       }
     }
