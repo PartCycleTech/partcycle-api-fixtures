@@ -66,6 +66,7 @@
             "stock-date-added": "2017-09-05",
             "is-available-for-search": false,
             "intelligent-description": "",
+            "intelligent-translations": [],
             "purchase-price-in-cents": 12300,
             "intelligent-quality": "like_new",
             "yms-unique-id": null,
