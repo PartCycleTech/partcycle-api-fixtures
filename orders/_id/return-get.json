@@ -245,6 +245,7 @@
             "stock-date-added": "2018-02-27",
             "is-available-for-search": null,
             "intelligent-description": "",
+            "intelligent-translations": [],
             "purchase-price-in-cents": 10000,
             "intelligent-quality": "like_new",
             "yms-unique-id": "6354200",

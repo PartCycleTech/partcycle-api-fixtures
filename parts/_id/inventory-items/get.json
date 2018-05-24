@@ -23,6 +23,7 @@
              "stock-date-added": "2017-09-03",
              "is-available-for-search": true,
              "intelligent-description": "This part is in like-new condition. It looks new and functions the same as a new part.",
+             "intelligent-translations": ["This part is in like-new condition. It looks new and functions the same as a new part."],
              "purchase-price-in-cents": 12300,
              "intelligent-quality": "like_new",
              "yms-unique-id": null,
