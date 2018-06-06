@@ -61,6 +61,7 @@
             "is-commercial-shipping": false,
             "is-listed": true,
             "description": "INCLUDES MOUNTING HARDWARE",
+            "status": "unbolted",
             "stock-number": "ABC123",
             "stock-location": "R1",
             "stock-date-added": "2017-09-05",
