@@ -19,7 +19,8 @@
             "whats-not-included": "Pizza",
             "ara-definition": "Body",
             "is-available-for-sale": true,
-            "youtube-id": null
+            "youtube-id": null,
+            "part-warning": "DEAD PIGEON INSIDE"
           }
         },
         {
@@ -35,7 +36,8 @@
             "whats-not-included": "Gluten-free Hummus Wrap",
             "ara-definition": "Mech.",
             "is-available-for-sale": true,
-            "youtube-id": null
+            "youtube-id": null,
+            "part-warning": "You ever have a dream?"
           }
         }
       ],
