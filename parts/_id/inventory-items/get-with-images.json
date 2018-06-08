@@ -28,7 +28,8 @@
           "purchase-price-in-cents": 76505,
           "intelligent-quality": "good",
           "yms-unique-id": null,
-          "unique-attribute-hash": "6123f5d32b76b54264892c658852826e97b4efc3"
+          "unique-attribute-hash": "6123f5d32b76b54264892c658852826e97b4efc3",
+          "estimated-ship-date": "any#inventory-item.estimated-ship-date"
         },
         "relationships": {
           "donor-car": {
