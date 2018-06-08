@@ -277,7 +277,8 @@
             "purchase-price-in-cents": 12300,
             "intelligent-quality": "like_new",
             "yms-unique-id": "7492859 :)",
-            "unique-attribute-hash": "any#unique-attribute-hash"
+            "unique-attribute-hash": "any#unique-attribute-hash",
+            "estimated-ship-date": "any#inventory-item.estimated-ship-date"
           },
           "relationships": {
             "donor-car": {
