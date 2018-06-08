@@ -1,0 +1,742 @@
+{
+  "request": {
+    "body": null
+  },
+  "response": {
+    "status": "200",
+    "body": {
+      "data": {
+        "id": "id#inventory-item-id",
+        "type": "inventory-items",
+        "links": {
+          "self": "http://localhost:3000/api/inventory-items/54"
+        },
+        "attributes": {
+          "company-name": "Jabba's Preowned Parts",
+          "price-in-cents": 76505,
+          "grade": "B",
+          "company-rating": null,
+          "is-available-for-purchase": true,
+          "is-commercial-shipping": false,
+          "is-listed": true,
+          "description": "17X7.5, ALUM, 5 SPOKE, SCRATCHED [560-03781]",
+          "stock-number": "7N8",
+          "stock-location": "R8",
+          "stock-date-added": "2018-02-09",
+          "is-available-for-search": true,
+          "intelligent-description": "This engine was started, tested and ran well.",
+          "purchase-price-in-cents": 76505,
+          "intelligent-quality": "good",
+          "yms-unique-id": null,
+          "unique-attribute-hash": "6123f5d32b76b54264892c658852826e97b4efc3",
+          "estimated-ship-date": "any#inventory-item.estimated-ship-date"
+        },
+        "relationships": {
+          "donor-car": {
+            "links": {
+              "self": "http://localhost:3000/api/inventory-items/54/relationships/donor-car",
+              "related": "http://localhost:3000/api/inventory-items/54/donor-car"
+            },
+            "data": {
+              "type": "donor-cars",
+              "id": "88"
+            }
+          },
+          "part": {
+            "links": {
+              "self": "http://localhost:3000/api/inventory-items/54/relationships/part",
+              "related": "http://localhost:3000/api/inventory-items/54/part"
+            },
+            "data": {
+              "type": "parts",
+              "id": "5"
+            }
+          },
+          "location": {
+            "links": {
+              "self": "http://localhost:3000/api/inventory-items/54/relationships/location",
+              "related": "http://localhost:3000/api/inventory-items/54/location"
+            },
+            "data": {
+              "type": "locations",
+              "id": "7"
+            }
+          },
+          "inventory-item-images": {
+            "links": {
+              "self": "http://localhost:3000/api/inventory-items/54/relationships/inventory-item-images",
+              "related": "http://localhost:3000/api/inventory-items/54/inventory-item-images"
+            },
+            "data": [
+              {
+                "type": "inventory-item-images",
+                "id": "1"
+              },
+              {
+                "type": "inventory-item-images",
+                "id": "2"
+              },
+              {
+                "type": "inventory-item-images",
+                "id": "3"
+              },
+              {
+                "type": "inventory-item-images",
+                "id": "4"
+              },
+              {
+                "type": "inventory-item-images",
+                "id": "5"
+              },
+              {
+                "type": "inventory-item-images",
+                "id": "6"
+              }
+            ]
+          }
+        },
+        "meta": {
+          "distance": {
+            "magnitude": null,
+            "units": "mi"
+          }
+        }
+      },
+      "included": [
+        {
+          "id": "88",
+          "type": "donor-cars",
+          "links": {
+            "self": "http://localhost:3000/api/donor-cars/88"
+          },
+          "attributes": {
+            "mileage": null,
+            "year": 1994,
+            "hollander-model-name": "F-150",
+            "vin": "2T1BR12E2WC1307388",
+            "stock-number": null
+          },
+          "relationships": {
+            "donor-car-images": {
+              "links": {
+                "self": "http://localhost:3000/api/donor-cars/88/relationships/donor-car-images",
+                "related": "http://localhost:3000/api/donor-cars/88/donor-car-images"
+              }
+            }
+          }
+        },
+        {
+          "id": "73",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/73"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Elantra",
+            "year": 2010
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/73/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/73/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "74",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/74"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Elantra",
+            "year": 2011
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/74/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/74/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "75",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/75"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Elantra",
+            "year": 2012
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/75/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/75/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "76",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/76"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Elantra",
+            "year": 2013
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/76/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/76/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "77",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/77"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Elantra",
+            "year": 2014
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/77/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/77/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "78",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/78"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Elantra",
+            "year": 2015
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/78/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/78/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "79",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/79"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Sonata",
+            "year": 2010
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/79/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/79/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "80",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/80"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Sonata",
+            "year": 2011
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/80/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/80/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "81",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/81"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Sonata",
+            "year": 2012
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/81/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/81/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "82",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/82"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Sonata",
+            "year": 2013
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/82/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/82/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "83",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/83"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Sonata",
+            "year": 2014
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/83/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/83/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "84",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/84"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Sonata",
+            "year": 2015
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/84/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/84/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "85",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/85"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Santa Fe",
+            "year": 2010
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/85/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/85/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "86",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/86"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Santa Fe",
+            "year": 2011
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/86/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/86/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "87",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/87"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Santa Fe",
+            "year": 2012
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/87/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/87/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "88",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/88"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Santa Fe",
+            "year": 2013
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/88/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/88/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "89",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/89"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Santa Fe",
+            "year": 2014
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/89/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/89/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "90",
+          "type": "vehicles",
+          "links": {
+            "self": "http://localhost:3000/api/vehicles/90"
+          },
+          "attributes": {
+            "make-name": "Hyundai",
+            "model-name": "Santa Fe",
+            "year": 2015
+          },
+          "relationships": {
+            "parts": {
+              "links": {
+                "self": "http://localhost:3000/api/vehicles/90/relationships/parts",
+                "related": "http://localhost:3000/api/vehicles/90/parts"
+              }
+            }
+          }
+        },
+        {
+          "id": "306",
+          "type": "part-kinds",
+          "links": {
+            "self": "http://localhost:3000/api/part-kinds/306"
+          },
+          "attributes": {
+            "name": "Alternator",
+            "hollander-part-type": "601",
+            "alternate-names": [],
+            "whats-included": "Integral pulleys & brackets, wiring to first disconnect",
+            "whats-not-included": "External Voltage Regulators",
+            "ara-definition": "Mech.",
+            "is-available-for-sale": true,
+            "youtube-id": null
+          }
+        },
+        {
+          "id": "5",
+          "type": "parts",
+          "links": {
+            "self": "http://localhost:3000/api/parts/5"
+          },
+          "attributes": {
+            "hollander-interchange": "601-00005",
+            "interchange-number": "00005",
+            "name": "Alternator"
+          },
+          "relationships": {
+            "diagrams": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/5/relationships/diagrams",
+                "related": "http://localhost:3000/api/parts/5/diagrams"
+              }
+            },
+            "inventory-items": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/5/relationships/inventory-items",
+                "related": "http://localhost:3000/api/parts/5/inventory-items"
+              }
+            },
+            "vehicles": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/5/relationships/vehicles",
+                "related": "http://localhost:3000/api/parts/5/vehicles"
+              },
+              "data": [
+                {
+                  "type": "vehicles",
+                  "id": "73"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "74"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "75"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "76"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "77"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "78"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "79"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "80"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "81"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "82"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "83"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "84"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "85"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "86"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "87"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "88"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "89"
+                },
+                {
+                  "type": "vehicles",
+                  "id": "90"
+                }
+              ]
+            },
+            "part-kind": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/5/relationships/part-kind",
+                "related": "http://localhost:3000/api/parts/5/part-kind"
+              },
+              "data": {
+                "type": "part-kinds",
+                "id": "306"
+              }
+            },
+            "part-images": {
+              "links": {
+                "self": "http://localhost:3000/api/parts/5/relationships/part-images",
+                "related": "http://localhost:3000/api/parts/5/part-images"
+              }
+            }
+          }
+        },
+        {
+          "id": "7",
+          "type": "locations",
+          "links": {
+            "self": "http://localhost:3000/api/locations/7"
+          },
+          "attributes": {
+            "street": "13 Garden St.",
+            "suite": "C",
+            "city": "Livingston",
+            "state": "NJ",
+            "zipcode": "07039",
+            "phone-number": "1970961976",
+            "nickname": "AutoYard-1",
+            "contact-name": "Todd",
+            "contact-phone-number": "5555555555",
+            "contact-email": "todd@partcycle.com",
+            "last-inventory-import-at": null
+          },
+          "relationships": {
+            "inventory-items": {
+              "links": {
+                "self": "http://localhost:3000/api/locations/7/relationships/inventory-items",
+                "related": "http://localhost:3000/api/locations/7/inventory-items"
+              }
+            },
+            "company": {
+              "links": {
+                "self": "http://localhost:3000/api/locations/7/relationships/company",
+                "related": "http://localhost:3000/api/locations/7/company"
+              }
+            },
+            "bank-account": {
+              "links": {
+                "self": "http://localhost:3000/api/locations/7/relationships/bank-account",
+                "related": "http://localhost:3000/api/locations/7/bank-account"
+              }
+            }
+          }
+        },
+        {
+          "id": "1",
+          "type": "inventory-item-images",
+          "links": {
+            "self": "http://localhost:3000/api/inventory-item-images/1"
+          },
+          "attributes": {
+            "url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/1/adam-griffith-252508-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=a7e121cbae10a2eee99312abf8a7238853e80b160fc1df3c223e5961c2206da0",
+            "preview-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/1/preview_adam-griffith-252508-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=2ce1ab4501ec42c78f8781bc69ffead20d5745921ada87bd147658942b2d871a",
+            "thumbnail-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/1/thumbnail_adam-griffith-252508-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=dae8408b471358e23366f44f84be7b61c877bd136402d5b27e39e3d438dc826a"
+          }
+        },
+        {
+          "id": "2",
+          "type": "inventory-item-images",
+          "links": {
+            "self": "http://localhost:3000/api/inventory-item-images/2"
+          },
+          "attributes": {
+            "url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/2/kayle-kaupanger-659285-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=229d885c2b5902afac7dcc72197d2cd123b39fb965423ed124f474e7663042b8",
+            "preview-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/2/preview_kayle-kaupanger-659285-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=c5af01f84384b6cbade921c2e01b38f6ca24ad5980efb8d84f3799831469f0af",
+            "thumbnail-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/2/thumbnail_kayle-kaupanger-659285-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=b1f46b85d4860bf30742b189cb8b3447d0ebb4e1dd15dc215276ffc45f694421"
+          }
+        },
+        {
+          "id": "3",
+          "type": "inventory-item-images",
+          "links": {
+            "self": "http://localhost:3000/api/inventory-item-images/3"
+          },
+          "attributes": {
+            "url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/3/rahul-bhogal-614407-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=b518cb10296121ce7dc241ff05e98a42917f58096081589ed6203ac4728362ee",
+            "preview-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/3/preview_rahul-bhogal-614407-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=05ce3310339ca47b79943b740fd2a5c02ebbff6758ffe0cce4e6a851562a660f",
+            "thumbnail-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/3/thumbnail_rahul-bhogal-614407-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=77c9155f704141d72501d173bf07d2f9cd4262bcedd98cc7e7e9ae7529f5c9ad"
+          }
+        },
+        {
+          "id": "4",
+          "type": "inventory-item-images",
+          "links": {
+            "self": "http://localhost:3000/api/inventory-item-images/4"
+          },
+          "attributes": {
+            "url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/4/ryan-graybill-254873-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=0a01e4b77b0c9da9ffe13d192fc3308f444dd4b1a37d4ae7009ea2366fa848e5",
+            "preview-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/4/preview_ryan-graybill-254873-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=7038478e7bfdf3db7a2768fdbbb90365ee3c98c63a9fa506317bbfae971f9c1a",
+            "thumbnail-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/4/thumbnail_ryan-graybill-254873-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=e6d360de252f639b9ff49e69c3360560a8b41a2fcfa860c42ae3ef68c36983e3"
+          }
+        },
+        {
+          "id": "5",
+          "type": "inventory-item-images",
+          "links": {
+            "self": "http://localhost:3000/api/inventory-item-images/5"
+          },
+          "attributes": {
+            "url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/5/severin-dm-361920-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=dd7437f01a1222e754b475f9355921d398dc9ee19e8cea6224c5c0284e95e94d",
+            "preview-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/5/preview_severin-dm-361920-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=f03cb4003790a62da94a1d0fd5995cefe045f8d1336fa8449109339f61c783e4",
+            "thumbnail-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/5/thumbnail_severin-dm-361920-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=3b3b0a86a478ab5adcb95966abf3828a80bb235d30b1c45e5fa14fafeda093bb"
+          }
+        },
+        {
+          "id": "6",
+          "type": "inventory-item-images",
+          "links": {
+            "self": "http://localhost:3000/api/inventory-item-images/6"
+          },
+          "attributes": {
+            "url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/6/the-creative-exchange-398774-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=ad667673bc053daf603275e02162c5af0fe8c184540a07a7431f1b26779655bb",
+            "preview-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/6/preview_the-creative-exchange-398774-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=d2eb8d3e6f151b88c994dc9f49840f52e9c41586cc0f03a0532dedf9f1f74fa5",
+            "thumbnail-url": "https://partcycle-user-uploads-dev.s3-us-west-2.amazonaws.com/inventory_item_image/image/6/thumbnail_the-creative-exchange-398774-unsplash.jpg?X-Amz-Expires=86400&X-Amz-Date=20180521T172803Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIE2VFIRHM7FKNJIQ/20180521/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=a3d843ba0e84ea525b79749dfb0ef8eee870009f1db211f86c7f7cfb4bd57fed"
+          }
+        }
+      ]
+    }
+  }
+}
