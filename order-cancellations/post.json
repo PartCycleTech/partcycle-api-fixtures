@@ -5,8 +5,7 @@
         "attributes": {
           "custom-reason-text": "",
           "order-id": "id#order-id",
-          "reason": "could_not_be_shipped_quickly",
-          "at-fault": "buyer"
+          "reason": "could_not_be_shipped_quickly"
         },
         "type": "order-cancellations"
       }
@@ -23,8 +22,7 @@
           "user-id": "number#user-id",
           "reason": "could_not_be_shipped_quickly",
           "custom-reason-text": "",
-          "created-at": "2017-08-28T16:04:07.891Z",
-          "at-fault": "buyer"
+          "created-at": "2017-08-28T16:04:07.891Z"
         }
       }
     }
