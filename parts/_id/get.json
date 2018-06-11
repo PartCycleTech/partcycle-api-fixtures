@@ -36,6 +36,7 @@
             "whats-not-included": "Pizza",
             "ara-definition": "Body",
             "is-available-for-sale": true,
+            "part-warning": null,
             "youtube-id": null
           }
         }
