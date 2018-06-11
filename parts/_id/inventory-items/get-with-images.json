@@ -498,6 +498,7 @@
             "whats-not-included": "External Voltage Regulators",
             "ara-definition": "Mech.",
             "is-available-for-sale": true,
+            "part-warning": null,
             "youtube-id": null
           }
         },
