@@ -71,6 +71,7 @@
             "purchase-price-in-cents": 12300,
             "intelligent-quality": "like_new",
             "yms-unique-id": null,
+            "ready-to-ship": true,
             "unique-attribute-hash": "875a0f9eb6bbfa7cbfdeb907a296a8875f9f09c0",
             "estimated-ship-date": "any#inventory-item.estimated-ship-date"
           },
