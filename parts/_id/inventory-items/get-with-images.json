@@ -513,7 +513,10 @@
           "attributes": {
             "hollander-interchange": "601-00005",
             "interchange-number": "00005",
-            "name": "Alternator"
+            "name": "Alternator",
+            "available-inventory-items-count": 1,
+            "lowest-available-purchase-price-in-cents": 76505,
+            "lowest-available-mileage": null
           },
           "relationships": {
             "diagrams": {
