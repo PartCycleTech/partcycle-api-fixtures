@@ -47,7 +47,7 @@
             "hollander-interchange": "100-00379",
             "interchange-number": "00379",
             "name": "Engine Assembly",
-            "available-inventory-items-count": null,
+            "available-inventory-items-count": 0,
             "lowest-available-purchase-price-in-cents": null,
             "lowest-available-mileage": null
           }

@@ -195,7 +195,7 @@
             "hollander-interchange": "100-00144AL :)",
             "interchange-number": "00144AL :)",
             "name": "Engine Assembly 144 :)",
-            "available-inventory-items-count": null,
+            "available-inventory-items-count": 0,
             "lowest-available-purchase-price-in-cents": null,
             "lowest-available-mileage": null
           },
