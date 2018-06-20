@@ -12,8 +12,8 @@
           "name": "Seatbelt Buckle",
           "hollander-interchange": "123-45678",
           "interchange-number": "45678",
-          "available-inventory-items-count": 0,
-          "lowest-available-purchase-price-in-cents": null,
+          "available-inventory-items-count": 1,
+          "lowest-available-purchase-price-in-cents": 76505,
           "lowest-available-mileage": null
         },
         "relationships": {
