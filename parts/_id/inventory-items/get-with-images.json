@@ -28,7 +28,8 @@
           "purchase-price-in-cents": 76505,
           "intelligent-quality": "good",
           "yms-unique-id": null,
-          "unique-attribute-hash": "6123f5d32b76b54264892c658852826e97b4efc3"
+          "unique-attribute-hash": "6123f5d32b76b54264892c658852826e97b4efc3",
+          "estimated-ship-date": "any#inventory-item.estimated-ship-date"
         },
         "relationships": {
           "donor-car": {
@@ -111,9 +112,10 @@
           "attributes": {
             "mileage": null,
             "year": 1994,
+            "make": "Ford",
             "hollander-model-name": "F-150",
             "vin": "2T1BR12E2WC1307388",
-            "stock-number": null
+            "stock-number": "awz-898746"
           },
           "relationships": {
             "donor-car-images": {
