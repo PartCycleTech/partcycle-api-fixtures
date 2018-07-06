@@ -11,17 +11,6 @@
           "referrer": "any#referrer-request",
           "search-affiliate": null
         },
-        "relationships": {
-          "default-billing-address": {
-            "data": null
-          },
-          "default-credit-card": {
-            "data": null
-          },
-          "default-shipping-address": {
-            "data": null
-          }
-        },
         "type": "users"
       }
     }
