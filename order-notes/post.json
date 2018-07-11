@@ -11,9 +11,6 @@
               "id": "id#order-id",
               "type": "orders"
             }
-          },
-          "user": {
-            "data": null
           }
         },
         "type": "order-notes"
