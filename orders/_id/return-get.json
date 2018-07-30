@@ -33,7 +33,8 @@
           "additional-shipping-total-in-cents": 0,
           "net-platform-fee-in-cents": 1200,
           "refund-total-in-cents": 0,
-          "is-potential-fraud": false
+          "is-potential-fraud": false,
+          "seller-action-status": "in_process"
         },
         "relationships": {
           "credit-card": {
