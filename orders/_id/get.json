@@ -33,7 +33,8 @@
           "has-closed-returns": false,
           "buyer-status": "awaiting_shipment",
           "supplier-status": "pending",
-          "is-potential-fraud": false
+          "is-potential-fraud": false,
+          "seller-action-status": "in_process"
         },
         "relationships": {
           "credit-card": {
