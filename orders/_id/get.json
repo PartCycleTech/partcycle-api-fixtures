@@ -34,7 +34,7 @@
           "buyer-status": "awaiting_shipment",
           "supplier-status": "pending",
           "is-potential-fraud": false,
-          "seller-action-status": "in_process"
+          "seller-action-status": "order_in_process"
         },
         "relationships": {
           "credit-card": {
