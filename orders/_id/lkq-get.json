@@ -35,7 +35,8 @@
           "supplier-status": "unapproved",
           "is-potential-fraud": false,
           "seller-action-status": "order_in_process",
-          "seller-action-status-updated-at": "any#seller-action-status-updated-at"
+          "seller-action-status-updated-at": "any#seller-action-status-updated-at",
+          "seller-action-status-overdue-at": "any#seller-action-status-overdue-at"
         },
         "relationships": {
           "credit-card": {
