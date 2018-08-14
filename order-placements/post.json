@@ -198,7 +198,8 @@
             "net-platform-fee-in-cents": 1476,
             "refund-total-in-cents": 0,
             "is-potential-fraud": false,
-            "seller-action-status": "order_in_process"
+            "seller-action-status": "order_in_process",
+            "seller-action-status-updated-at": "any#seller-action-status-updated-at"
           },
           "relationships": {
             "order-items": {
