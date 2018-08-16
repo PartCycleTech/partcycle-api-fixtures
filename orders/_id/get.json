@@ -35,8 +35,7 @@
           "supplier-status": "pending",
           "is-potential-fraud": false,
           "seller-action-status": "order_in_process",
-          "seller-action-status-updated-at": "any#seller-action-status-updated-at",
-          "seller-action-status-overdue-at": "any#seller-action-status-overdue-at"
+          "seller-action-status-updated-at": "any#seller-action-status-updated-at"
         },
         "relationships": {
           "credit-card": {
@@ -465,7 +464,8 @@
             "contact-name": "Bob Dylan",
             "contact-phone-number": "1234567890",
             "contact-email": "Bob@Dylan.biz",
-            "last-inventory-import-at": null
+            "last-inventory-import-at": null,
+            "is-lkq": false
           },
           "relationships": {
             "inventory-items": {
