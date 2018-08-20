@@ -646,7 +646,8 @@
             "contact-name": "Todd",
             "contact-phone-number": "5555555555",
             "contact-email": "todd@partcycle.com",
-            "last-inventory-import-at": null
+            "last-inventory-import-at": null,
+            "is-lkq": false
           },
           "relationships": {
             "inventory-items": {

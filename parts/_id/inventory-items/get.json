@@ -57,7 +57,8 @@
             "contact-name": "Bob Dylan",
             "contact-phone-number": "1234567890",
             "contact-email": "Bob@Dylan.biz",
-            "last-inventory-import-at": null
+            "last-inventory-import-at": null,
+            "is-lkq": false
           }
         }
       ],
