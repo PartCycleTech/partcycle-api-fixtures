@@ -16,7 +16,8 @@
         "id": "169",
         "type": "order-approvals",
         "attributes": {
-          "order-id": "id#order-id"
+          "order-id": "id#order-id",
+          "work-order-number": null
         }
       }
     }
