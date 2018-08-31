@@ -201,6 +201,7 @@
             "is-potential-fraud": false,
             "seller-action-status": "order_new",
             "seller-action-status-updated-at": "any#seller-action-status-updated-at"
+            "seller-action-status-overdue-at": "any#seller-action-status-overdue-at"
           },
           "relationships": {
             "order-items": {
