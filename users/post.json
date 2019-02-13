@@ -39,6 +39,7 @@
           "is-supplier": false,
           "has-supplier-registration": false,
           "kind": "diy",
+          "is_pro_buyer": false,
           "is-premier-buyer": false,
           "nickname": "Jane",
           "referrer": "any#referrer-response",
