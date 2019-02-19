@@ -422,6 +422,7 @@
             "is-supplier": false,
             "has-supplier-registration": false,
             "kind": "i_work_on_my_own_vehicles",
+            "is-pro-buyer": true,
             "is-premier-buyer": false,
             "nickname": "Johnny",
             "referrer": null,
